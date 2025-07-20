@@ -1,0 +1,998 @@
+
+
+***********************************************************************
+Fatal NI connect error 12514, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=hatem)(PORT=1521))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=orcl)(CID=(PROGRAM=C:\orant\BIN\ifrun60.EXE)(HOST=HATEM)(USER=Hatim))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 8.0.6.3.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 8.0.6.3.0 - Production
+  Time: 12-09-2011 21:33:59
+  Tracing not turned on.
+  Tns error struct:
+    nr err code: 12204
+    TNS-12204: TNS:·„ Ìﬁ»· «· ÿ»Ìﬁ «·»Ì«‰«  «· Ì  „ «” ﬁ»«·Â«
+    ns main err code: 12564
+    TNS-12564:  TNS:  „ —›÷ «·Ê’·…
+    ns secondary err code: 0
+    nt main err code: 0
+    nt secondary err code: 0
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12514, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=hatem)(PORT=1521))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=orcl)(CID=(PROGRAM=C:\orant\BIN\ifrun60.EXE)(HOST=HATEM)(USER=Hatim))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 8.0.6.3.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 8.0.6.3.0 - Production
+  Time: 12-09-2011 21:34:04
+  Tracing not turned on.
+  Tns error struct:
+    nr err code: 12204
+    TNS-12204: TNS:·„ Ìﬁ»· «· ÿ»Ìﬁ «·»Ì«‰«  «· Ì  „ «” ﬁ»«·Â«
+    ns main err code: 12564
+    TNS-12564:  TNS:  „ —›÷ «·Ê’·…
+    ns secondary err code: 0
+    nt main err code: 0
+    nt secondary err code: 0
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12514, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=hatem)(PORT=1521))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=orcl)(CID=(PROGRAM=C:\orant\BIN\ifrun60.EXE)(HOST=HATEM)(USER=Hatim))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 8.0.6.3.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 8.0.6.3.0 - Production
+  Time: 12-09-2011 21:34:16
+  Tracing not turned on.
+  Tns error struct:
+    nr err code: 12204
+    TNS-12204: TNS:·„ Ìﬁ»· «· ÿ»Ìﬁ «·»Ì«‰«  «· Ì  „ «” ﬁ»«·Â«
+    ns main err code: 12564
+    TNS-12564:  TNS:  „ —›÷ «·Ê’·…
+    ns secondary err code: 0
+    nt main err code: 0
+    nt secondary err code: 0
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12514, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=hatem)(PORT=1521))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=orcl)(CID=(PROGRAM=C:\orant\BIN\ifrun60.EXE)(HOST=HATEM)(USER=Hatim))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 8.0.6.3.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 8.0.6.3.0 - Production
+  Time: 12-09-2011 21:34:24
+  Tracing not turned on.
+  Tns error struct:
+    nr err code: 12204
+    TNS-12204: TNS:·„ Ìﬁ»· «· ÿ»Ìﬁ «·»Ì«‰«  «· Ì  „ «” ﬁ»«·Â«
+    ns main err code: 12564
+    TNS-12564:  TNS:  „ —›÷ «·Ê’·…
+    ns secondary err code: 0
+    nt main err code: 0
+    nt secondary err code: 0
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12514, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=hatem)(PORT=1521))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=orcl)(CID=(PROGRAM=C:\orant\BIN\ifrun60.EXE)(HOST=HATEM)(USER=Hatim))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 8.0.6.3.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 8.0.6.3.0 - Production
+  Time: 12-09-2011 21:34:35
+  Tracing not turned on.
+  Tns error struct:
+    nr err code: 12204
+    TNS-12204: TNS:·„ Ìﬁ»· «· ÿ»Ìﬁ «·»Ì«‰«  «· Ì  „ «” ﬁ»«·Â«
+    ns main err code: 12564
+    TNS-12564:  TNS:  „ —›÷ «·Ê’·…
+    ns secondary err code: 0
+    nt main err code: 0
+    nt secondary err code: 0
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12541, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=ORA)(PORT=1521))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=orcl)(CID=(PROGRAM=C:\oracle\product\10.1.0\db_1\BIN\EXP.exe)(HOST=ORA)(USER=master))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.1.0.2.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 10.1.0.2.0 - Production
+  Time: 18-Ì‰«Ì— -2015 17:26:47
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12541
+    TNS-12541: TNS: ·« ÌÊÃœ „” „⁄
+    ns secondary err code: 12560
+    nt main err code: 511
+    TNS-00511: ·« ÌÊÃœ „ ’‰ 
+    nt secondary err code: 61
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12541, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=pc-1)(PORT=1521))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=orcl)(CID=(PROGRAM=C:\oracle\product\10.1.0\db_1\BIN\EXP.exe)(HOST=PC-1)(USER=Administrator))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.1.0.2.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 10.1.0.2.0 - Production
+  Time: 30-„«—”  -2015 17:57:59
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12541
+    TNS-12541: TNS: ·« ÌÊÃœ „” „⁄
+    ns secondary err code: 12560
+    nt main err code: 511
+    TNS-00511: ·« ÌÊÃœ „ ’‰ 
+    nt secondary err code: 61
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12528, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=pc-1)(PORT=1521))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=orcl)(CID=(PROGRAM=C:\orant\BIN\ifrun60.EXE)(HOST=PC-1)(USER=Administrator))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 8.0.6.0.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 8.0.6.0.0 - Production
+  Time: 30-03-15 18:02:54
+  Tracing not turned on.
+  Tns error struct:
+    nr err code: 12204
+    TNS-12204: TNS:·„ Ìﬁ»· «· ÿ»Ìﬁ «·»Ì«‰«  «· Ì  „ «” ﬁ»«·Â«
+    ns main err code: 12564
+    TNS-12564:  TNS:  „ —›÷ «·Ê’·…
+    ns secondary err code: 0
+    nt main err code: 0
+    nt secondary err code: 0
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12545, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=loaclhost)(PORT=1521))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=orcl)(CID=(PROGRAM=C:\orant\BIN\ifrun60.EXE)(HOST=ORA)(USER=master))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 8.0.6.0.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 8.0.6.0.0 - Production
+  Time: 22-02-16 05:04:05
+  Tracing not turned on.
+  Tns error struct:
+    nr err code: 12206
+    TNS-12206: TNS:ŸÂ— Œÿ√ TNS √À‰«¡ «·«” ﬂ‘«›
+    ns main err code: 12545
+    TNS-12545: ·„ Ì „ «· „ﬂ‰ «·« ’«· ·√‰ «·„÷Ì› «·„ÿ·Ê» √Ê «·»—‰«„Ã €Ì— „ÊÃÊœ
+    ns secondary err code: 12560
+    nt main err code: 515
+    TNS-00515: ·„ Ì „ «·« ’«· ·⁄œ„ ÊÃÊœ «·„÷Ì› √Ê «·»—‰«„Ã
+    nt secondary err code: 1001
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12203, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=192.168.1.100)(PORT=1521))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=orcl)(CID=(PROGRAM=C:\orant\BIN\ifrun60.EXE)(HOST=HATEM-PC)(USER=Hatem))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 8.0.6.0.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 8.0.6.0.0 - Production
+  Time: 12-04-16 10:39:22
+  Tracing not turned on.
+  Tns error struct:
+    nr err code: 12203
+    TNS-12203: TNS:·„ Ì „ «· „ﬂ‰ „‰ «·« ’«· »«·ÊÃÂ… «·„Õœœ…
+    ns main err code: 12535
+    TNS-12535: TNS:«‰ ÂÏ «·Êﬁ  «·„Õœœ ··⁄„·Ì…
+    ns secondary err code: 12560
+    nt main err code: 505
+    TNS-00505: «‰ ÂÏ Êﬁ  Â–Â «·⁄„·Ì…
+    nt secondary err code: 60
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12203, connecting to:
+ (DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=BEQ)(PROGRAM=oracle80)(ARGV0=oracle80ORCL)(ARGS='(DESCRIPTION=(LOCAL=YES)(ADDRESS=(PROTOCOL=beq)))')))(CONNECT_DATA=(SID=ORCL)(CID=(PROGRAM=C:\orant\BIN\ifrun60.EXE)(HOST=HATEM-PC)(USER=Administrator))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 8.0.6.0.0 - Production
+	Oracle Bequeath NT Protocol Adapter for 32-bit Windows: Version 8.0.6.0.0 - Production
+  Time: 16-12-17 17:51:09
+  Tracing not turned on.
+  Tns error struct:
+    nr err code: 12203
+    TNS-12203: TNS:·„ Ì „ «· „ﬂ‰ „‰ «·« ’«· »«·ÊÃÂ… «·„Õœœ…
+    ns main err code: 12560
+    TNS-12560: TNS:ÌÊÃœ Œÿ√ ›Ì „Ê›ﬁ «·»—Ê ÊﬂÊ·
+    ns secondary err code: 0
+    nt main err code: 530
+    TNS-00530: ÌÊÃœ Œÿ√ ›Ì „Ê›ﬁ «·»—Ê ÊﬂÊ·
+    nt secondary err code: 0
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12203, connecting to:
+ (DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=BEQ)(PROGRAM=oracle80)(ARGV0=oracle80ORCL)(ARGS='(DESCRIPTION=(LOCAL=YES)(ADDRESS=(PROTOCOL=beq)))')))(CONNECT_DATA=(SID=ORCL)(CID=(PROGRAM=C:\orant\BIN\ifrun60.EXE)(HOST=HATEM-PC)(USER=Administrator))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 8.0.6.0.0 - Production
+	Oracle Bequeath NT Protocol Adapter for 32-bit Windows: Version 8.0.6.0.0 - Production
+  Time: 16-12-17 17:51:11
+  Tracing not turned on.
+  Tns error struct:
+    nr err code: 12203
+    TNS-12203: TNS:·„ Ì „ «· „ﬂ‰ „‰ «·« ’«· »«·ÊÃÂ… «·„Õœœ…
+    ns main err code: 12560
+    TNS-12560: TNS:ÌÊÃœ Œÿ√ ›Ì „Ê›ﬁ «·»—Ê ÊﬂÊ·
+    ns secondary err code: 0
+    nt main err code: 530
+    TNS-00530: ÌÊÃœ Œÿ√ ›Ì „Ê›ﬁ «·»—Ê ÊﬂÊ·
+    nt secondary err code: 0
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12203, connecting to:
+ (DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=BEQ)(PROGRAM=oracle80)(ARGV0=oracle80ORCL)(ARGS='(DESCRIPTION=(LOCAL=YES)(ADDRESS=(PROTOCOL=beq)))')))(CONNECT_DATA=(SID=ORCL)(CID=(PROGRAM=C:\orant\BIN\ifrun60.EXE)(HOST=HATEM-PC)(USER=Administrator))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 8.0.6.0.0 - Production
+	Oracle Bequeath NT Protocol Adapter for 32-bit Windows: Version 8.0.6.0.0 - Production
+  Time: 16-12-17 17:51:11
+  Tracing not turned on.
+  Tns error struct:
+    nr err code: 12203
+    TNS-12203: TNS:·„ Ì „ «· „ﬂ‰ „‰ «·« ’«· »«·ÊÃÂ… «·„Õœœ…
+    ns main err code: 12560
+    TNS-12560: TNS:ÌÊÃœ Œÿ√ ›Ì „Ê›ﬁ «·»—Ê ÊﬂÊ·
+    ns secondary err code: 0
+    nt main err code: 530
+    TNS-00530: ÌÊÃœ Œÿ√ ›Ì „Ê›ﬁ «·»—Ê ÊﬂÊ·
+    nt secondary err code: 0
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12203, connecting to:
+ (DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=BEQ)(PROGRAM=oracle80)(ARGV0=oracle80ORCL)(ARGS='(DESCRIPTION=(LOCAL=YES)(ADDRESS=(PROTOCOL=beq)))')))(CONNECT_DATA=(SID=ORCL)(CID=(PROGRAM=C:\orant\BIN\ifrun60.EXE)(HOST=HATEM-PC)(USER=Administrator))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 8.0.6.0.0 - Production
+	Oracle Bequeath NT Protocol Adapter for 32-bit Windows: Version 8.0.6.0.0 - Production
+  Time: 18-12-17 11:30:45
+  Tracing not turned on.
+  Tns error struct:
+    nr err code: 12203
+    TNS-12203: TNS:·„ Ì „ «· „ﬂ‰ „‰ «·« ’«· »«·ÊÃÂ… «·„Õœœ…
+    ns main err code: 12560
+    TNS-12560: TNS:ÌÊÃœ Œÿ√ ›Ì „Ê›ﬁ «·»—Ê ÊﬂÊ·
+    ns secondary err code: 0
+    nt main err code: 530
+    TNS-00530: ÌÊÃœ Œÿ√ ›Ì „Ê›ﬁ «·»—Ê ÊﬂÊ·
+    nt secondary err code: 0
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12203, connecting to:
+ (DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=BEQ)(PROGRAM=oracle80)(ARGV0=oracle80ORCL)(ARGS='(DESCRIPTION=(LOCAL=YES)(ADDRESS=(PROTOCOL=beq)))')))(CONNECT_DATA=(SID=ORCL)(CID=(PROGRAM=C:\orant\BIN\ifrun60.EXE)(HOST=HATEM-PC)(USER=Administrator))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 8.0.6.0.0 - Production
+	Oracle Bequeath NT Protocol Adapter for 32-bit Windows: Version 8.0.6.0.0 - Production
+  Time: 18-12-17 11:30:46
+  Tracing not turned on.
+  Tns error struct:
+    nr err code: 12203
+    TNS-12203: TNS:·„ Ì „ «· „ﬂ‰ „‰ «·« ’«· »«·ÊÃÂ… «·„Õœœ…
+    ns main err code: 12560
+    TNS-12560: TNS:ÌÊÃœ Œÿ√ ›Ì „Ê›ﬁ «·»—Ê ÊﬂÊ·
+    ns secondary err code: 0
+    nt main err code: 530
+    TNS-00530: ÌÊÃœ Œÿ√ ›Ì „Ê›ﬁ «·»—Ê ÊﬂÊ·
+    nt secondary err code: 0
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12203, connecting to:
+ (DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=BEQ)(PROGRAM=oracle80)(ARGV0=oracle80ORCL)(ARGS='(DESCRIPTION=(LOCAL=YES)(ADDRESS=(PROTOCOL=beq)))')))(CONNECT_DATA=(SID=ORCL)(CID=(PROGRAM=C:\orant\BIN\ifrun60.EXE)(HOST=HATEM-PC)(USER=Administrator))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 8.0.6.0.0 - Production
+	Oracle Bequeath NT Protocol Adapter for 32-bit Windows: Version 8.0.6.0.0 - Production
+  Time: 18-12-17 11:30:47
+  Tracing not turned on.
+  Tns error struct:
+    nr err code: 12203
+    TNS-12203: TNS:·„ Ì „ «· „ﬂ‰ „‰ «·« ’«· »«·ÊÃÂ… «·„Õœœ…
+    ns main err code: 12560
+    TNS-12560: TNS:ÌÊÃœ Œÿ√ ›Ì „Ê›ﬁ «·»—Ê ÊﬂÊ·
+    ns secondary err code: 0
+    nt main err code: 530
+    TNS-00530: ÌÊÃœ Œÿ√ ›Ì „Ê›ﬁ «·»—Ê ÊﬂÊ·
+    nt secondary err code: 0
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12203, connecting to:
+ (DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=BEQ)(PROGRAM=oracle80)(ARGV0=oracle80ORCL)(ARGS='(DESCRIPTION=(LOCAL=YES)(ADDRESS=(PROTOCOL=beq)))')))(CONNECT_DATA=(SID=ORCL)(CID=(PROGRAM=C:\orant\BIN\ifrun60.EXE)(HOST=HATEM-PC)(USER=Administrator))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 8.0.6.0.0 - Production
+	Oracle Bequeath NT Protocol Adapter for 32-bit Windows: Version 8.0.6.0.0 - Production
+  Time: 18-12-17 11:30:47
+  Tracing not turned on.
+  Tns error struct:
+    nr err code: 12203
+    TNS-12203: TNS:·„ Ì „ «· „ﬂ‰ „‰ «·« ’«· »«·ÊÃÂ… «·„Õœœ…
+    ns main err code: 12560
+    TNS-12560: TNS:ÌÊÃœ Œÿ√ ›Ì „Ê›ﬁ «·»—Ê ÊﬂÊ·
+    ns secondary err code: 0
+    nt main err code: 530
+    TNS-00530: ÌÊÃœ Œÿ√ ›Ì „Ê›ﬁ «·»—Ê ÊﬂÊ·
+    nt secondary err code: 0
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12203, connecting to:
+ (DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=BEQ)(PROGRAM=oracle80)(ARGV0=oracle80ORCL)(ARGS='(DESCRIPTION=(LOCAL=YES)(ADDRESS=(PROTOCOL=beq)))')))(CONNECT_DATA=(SID=ORCL)(CID=(PROGRAM=C:\orant\BIN\ifrun60.EXE)(HOST=HATEM-PC)(USER=Administrator))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 8.0.6.0.0 - Production
+	Oracle Bequeath NT Protocol Adapter for 32-bit Windows: Version 8.0.6.0.0 - Production
+  Time: 18-12-17 11:30:47
+  Tracing not turned on.
+  Tns error struct:
+    nr err code: 12203
+    TNS-12203: TNS:·„ Ì „ «· „ﬂ‰ „‰ «·« ’«· »«·ÊÃÂ… «·„Õœœ…
+    ns main err code: 12560
+    TNS-12560: TNS:ÌÊÃœ Œÿ√ ›Ì „Ê›ﬁ «·»—Ê ÊﬂÊ·
+    ns secondary err code: 0
+    nt main err code: 530
+    TNS-00530: ÌÊÃœ Œÿ√ ›Ì „Ê›ﬁ «·»—Ê ÊﬂÊ·
+    nt secondary err code: 0
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12203, connecting to:
+ (DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=BEQ)(PROGRAM=oracle80)(ARGV0=oracle80ORCL)(ARGS='(DESCRIPTION=(LOCAL=YES)(ADDRESS=(PROTOCOL=beq)))')))(CONNECT_DATA=(SID=ORCL)(CID=(PROGRAM=C:\orant\BIN\ifrun60.EXE)(HOST=HATEM-PC)(USER=Administrator))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 8.0.6.0.0 - Production
+	Oracle Bequeath NT Protocol Adapter for 32-bit Windows: Version 8.0.6.0.0 - Production
+  Time: 18-12-17 11:30:47
+  Tracing not turned on.
+  Tns error struct:
+    nr err code: 12203
+    TNS-12203: TNS:·„ Ì „ «· „ﬂ‰ „‰ «·« ’«· »«·ÊÃÂ… «·„Õœœ…
+    ns main err code: 12560
+    TNS-12560: TNS:ÌÊÃœ Œÿ√ ›Ì „Ê›ﬁ «·»—Ê ÊﬂÊ·
+    ns secondary err code: 0
+    nt main err code: 530
+    TNS-00530: ÌÊÃœ Œÿ√ ›Ì „Ê›ﬁ «·»—Ê ÊﬂÊ·
+    nt secondary err code: 0
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12203, connecting to:
+ (DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=BEQ)(PROGRAM=oracle80)(ARGV0=oracle80ORCL)(ARGS='(DESCRIPTION=(LOCAL=YES)(ADDRESS=(PROTOCOL=beq)))')))(CONNECT_DATA=(SID=ORCL)(CID=(PROGRAM=C:\orant\BIN\ifrun60.EXE)(HOST=HATEM-PC)(USER=Administrator))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 8.0.6.0.0 - Production
+	Oracle Bequeath NT Protocol Adapter for 32-bit Windows: Version 8.0.6.0.0 - Production
+  Time: 18-12-17 11:30:47
+  Tracing not turned on.
+  Tns error struct:
+    nr err code: 12203
+    TNS-12203: TNS:·„ Ì „ «· „ﬂ‰ „‰ «·« ’«· »«·ÊÃÂ… «·„Õœœ…
+    ns main err code: 12560
+    TNS-12560: TNS:ÌÊÃœ Œÿ√ ›Ì „Ê›ﬁ «·»—Ê ÊﬂÊ·
+    ns secondary err code: 0
+    nt main err code: 530
+    TNS-00530: ÌÊÃœ Œÿ√ ›Ì „Ê›ﬁ «·»—Ê ÊﬂÊ·
+    nt secondary err code: 0
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12203, connecting to:
+ (DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=BEQ)(PROGRAM=oracle80)(ARGV0=oracle80ORCL)(ARGS='(DESCRIPTION=(LOCAL=YES)(ADDRESS=(PROTOCOL=beq)))')))(CONNECT_DATA=(SID=ORCL)(CID=(PROGRAM=C:\orant\BIN\ifrun60.EXE)(HOST=HATEM-PC)(USER=Administrator))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 8.0.6.0.0 - Production
+	Oracle Bequeath NT Protocol Adapter for 32-bit Windows: Version 8.0.6.0.0 - Production
+  Time: 18-12-17 11:30:47
+  Tracing not turned on.
+  Tns error struct:
+    nr err code: 12203
+    TNS-12203: TNS:·„ Ì „ «· „ﬂ‰ „‰ «·« ’«· »«·ÊÃÂ… «·„Õœœ…
+    ns main err code: 12560
+    TNS-12560: TNS:ÌÊÃœ Œÿ√ ›Ì „Ê›ﬁ «·»—Ê ÊﬂÊ·
+    ns secondary err code: 0
+    nt main err code: 530
+    TNS-00530: ÌÊÃœ Œÿ√ ›Ì „Ê›ﬁ «·»—Ê ÊﬂÊ·
+    nt secondary err code: 0
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12203, connecting to:
+ (DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=BEQ)(PROGRAM=oracle80)(ARGV0=oracle80ORCL)(ARGS='(DESCRIPTION=(LOCAL=YES)(ADDRESS=(PROTOCOL=beq)))')))(CONNECT_DATA=(SID=ORCL)(CID=(PROGRAM=C:\orant\BIN\ifrun60.EXE)(HOST=HATEM-PC)(USER=Administrator))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 8.0.6.0.0 - Production
+	Oracle Bequeath NT Protocol Adapter for 32-bit Windows: Version 8.0.6.0.0 - Production
+  Time: 18-12-17 11:30:47
+  Tracing not turned on.
+  Tns error struct:
+    nr err code: 12203
+    TNS-12203: TNS:·„ Ì „ «· „ﬂ‰ „‰ «·« ’«· »«·ÊÃÂ… «·„Õœœ…
+    ns main err code: 12560
+    TNS-12560: TNS:ÌÊÃœ Œÿ√ ›Ì „Ê›ﬁ «·»—Ê ÊﬂÊ·
+    ns secondary err code: 0
+    nt main err code: 530
+    TNS-00530: ÌÊÃœ Œÿ√ ›Ì „Ê›ﬁ «·»—Ê ÊﬂÊ·
+    nt secondary err code: 0
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12203, connecting to:
+ (DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=BEQ)(PROGRAM=oracle80)(ARGV0=oracle80ORCL)(ARGS='(DESCRIPTION=(LOCAL=YES)(ADDRESS=(PROTOCOL=beq)))')))(CONNECT_DATA=(SID=ORCL)(CID=(PROGRAM=C:\orant\BIN\ifrun60.EXE)(HOST=HATEM-PC)(USER=Administrator))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 8.0.6.0.0 - Production
+	Oracle Bequeath NT Protocol Adapter for 32-bit Windows: Version 8.0.6.0.0 - Production
+  Time: 18-12-17 11:30:47
+  Tracing not turned on.
+  Tns error struct:
+    nr err code: 12203
+    TNS-12203: TNS:·„ Ì „ «· „ﬂ‰ „‰ «·« ’«· »«·ÊÃÂ… «·„Õœœ…
+    ns main err code: 12560
+    TNS-12560: TNS:ÌÊÃœ Œÿ√ ›Ì „Ê›ﬁ «·»—Ê ÊﬂÊ·
+    ns secondary err code: 0
+    nt main err code: 530
+    TNS-00530: ÌÊÃœ Œÿ√ ›Ì „Ê›ﬁ «·»—Ê ÊﬂÊ·
+    nt secondary err code: 0
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12224, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=localhost)(PORT=1521))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=orcl)(CID=(PROGRAM=C:\orant\BIN\ifrun60.EXE)(HOST=HATEM-PC)(USER=Hatem))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 8.0.6.0.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 8.0.6.0.0 - Production
+  Time: 15-04-18 20:11:27
+  Tracing not turned on.
+  Tns error struct:
+    nr err code: 12224
+    TNS-12224: TNS:·« ÌÊÃœ »—‰«„Ã „ ’‰ 
+    ns main err code: 12541
+    TNS-12541: TNS:·« ÌÊÃœ »—‰«„Ã „ ’‰ 
+    ns secondary err code: 12560
+    nt main err code: 511
+    TNS-00511: ·« ÌÊÃœ „ ’‰ 
+    nt secondary err code: 61
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12203, connecting to:
+ (DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=BEQ)(PROGRAM=oracle80)(ARGV0=oracle80ORCL)(ARGS='(DESCRIPTION=(LOCAL=YES)(ADDRESS=(PROTOCOL=beq)))')))(CONNECT_DATA=(SID=ORCL)(CID=(PROGRAM=C:\orant\bin\ifbld60.exe)(HOST=ELSAYED-PC)(USER=Elsayed))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 8.0.6.0.0 - Production
+	Oracle Bequeath NT Protocol Adapter for 32-bit Windows: Version 8.0.6.0.0 - Production
+  Time: 05-08-19 14:19:13
+  Tracing not turned on.
+  Tns error struct:
+    nr err code: 12203
+    TNS-12203: TNS:·„ Ì „ «· „ﬂ‰ „‰ «·« ’«· »«·ÊÃÂ… «·„Õœœ…
+    ns main err code: 12560
+    TNS-12560: TNS:ÌÊÃœ Œÿ√ ›Ì „Ê›ﬁ «·»—Ê ÊﬂÊ·
+    ns secondary err code: 0
+    nt main err code: 530
+    TNS-00530: ÌÊÃœ Œÿ√ ›Ì „Ê›ﬁ «·»—Ê ÊﬂÊ·
+    nt secondary err code: 0
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12203, connecting to:
+ (DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=BEQ)(PROGRAM=oracle80)(ARGV0=oracle80ORCL)(ARGS='(DESCRIPTION=(LOCAL=YES)(ADDRESS=(PROTOCOL=beq)))')))(CONNECT_DATA=(SID=ORCL)(CID=(PROGRAM=C:\orant\BIN\ifrun60.EXE)(HOST=OSMAN-PC)(USER=OSMAN))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 8.0.6.0.0 - Production
+	Oracle Bequeath NT Protocol Adapter for 32-bit Windows: Version 8.0.6.0.0 - Production
+  Time: 23-02-20 19:14:30
+  Tracing not turned on.
+  Tns error struct:
+    nr err code: 12203
+    TNS-12203: TNS:·„ Ì „ «· „ﬂ‰ „‰ «·« ’«· »«·ÊÃÂ… «·„Õœœ…
+    ns main err code: 12560
+    TNS-12560: TNS:ÌÊÃœ Œÿ√ ›Ì „Ê›ﬁ «·»—Ê ÊﬂÊ·
+    ns secondary err code: 0
+    nt main err code: 530
+    TNS-00530: ÌÊÃœ Œÿ√ ›Ì „Ê›ﬁ «·»—Ê ÊﬂÊ·
+    nt secondary err code: 0
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12203, connecting to:
+ (DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=BEQ)(PROGRAM=oracle80)(ARGV0=oracle80ORCL)(ARGS='(DESCRIPTION=(LOCAL=YES)(ADDRESS=(PROTOCOL=beq)))')))(CONNECT_DATA=(SID=ORCL)(CID=(PROGRAM=C:\orant\BIN\ifrun60.EXE)(HOST=OSMAN-PC)(USER=OSMAN))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 8.0.6.0.0 - Production
+	Oracle Bequeath NT Protocol Adapter for 32-bit Windows: Version 8.0.6.0.0 - Production
+  Time: 23-02-20 19:14:30
+  Tracing not turned on.
+  Tns error struct:
+    nr err code: 12203
+    TNS-12203: TNS:·„ Ì „ «· „ﬂ‰ „‰ «·« ’«· »«·ÊÃÂ… «·„Õœœ…
+    ns main err code: 12560
+    TNS-12560: TNS:ÌÊÃœ Œÿ√ ›Ì „Ê›ﬁ «·»—Ê ÊﬂÊ·
+    ns secondary err code: 0
+    nt main err code: 530
+    TNS-00530: ÌÊÃœ Œÿ√ ›Ì „Ê›ﬁ «·»—Ê ÊﬂÊ·
+    nt secondary err code: 0
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12203, connecting to:
+ (DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=BEQ)(PROGRAM=oracle80)(ARGV0=oracle80ORCL)(ARGS='(DESCRIPTION=(LOCAL=YES)(ADDRESS=(PROTOCOL=beq)))')))(CONNECT_DATA=(SID=ORCL)(CID=(PROGRAM=C:\orant\BIN\ifrun60.EXE)(HOST=OSMAN-PC)(USER=OSMAN))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 8.0.6.0.0 - Production
+	Oracle Bequeath NT Protocol Adapter for 32-bit Windows: Version 8.0.6.0.0 - Production
+  Time: 23-02-20 19:14:30
+  Tracing not turned on.
+  Tns error struct:
+    nr err code: 12203
+    TNS-12203: TNS:·„ Ì „ «· „ﬂ‰ „‰ «·« ’«· »«·ÊÃÂ… «·„Õœœ…
+    ns main err code: 12560
+    TNS-12560: TNS:ÌÊÃœ Œÿ√ ›Ì „Ê›ﬁ «·»—Ê ÊﬂÊ·
+    ns secondary err code: 0
+    nt main err code: 530
+    TNS-00530: ÌÊÃœ Œÿ√ ›Ì „Ê›ﬁ «·»—Ê ÊﬂÊ·
+    nt secondary err code: 0
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12203, connecting to:
+ (DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=BEQ)(PROGRAM=oracle80)(ARGV0=oracle80ORCL)(ARGS='(DESCRIPTION=(LOCAL=YES)(ADDRESS=(PROTOCOL=beq)))')))(CONNECT_DATA=(SID=ORCL)(CID=(PROGRAM=C:\orant\BIN\ifrun60.EXE)(HOST=OSMAN-PC)(USER=OSMAN))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 8.0.6.0.0 - Production
+	Oracle Bequeath NT Protocol Adapter for 32-bit Windows: Version 8.0.6.0.0 - Production
+  Time: 23-02-20 19:14:42
+  Tracing not turned on.
+  Tns error struct:
+    nr err code: 12203
+    TNS-12203: TNS:·„ Ì „ «· „ﬂ‰ „‰ «·« ’«· »«·ÊÃÂ… «·„Õœœ…
+    ns main err code: 12560
+    TNS-12560: TNS:ÌÊÃœ Œÿ√ ›Ì „Ê›ﬁ «·»—Ê ÊﬂÊ·
+    ns secondary err code: 0
+    nt main err code: 530
+    TNS-00530: ÌÊÃœ Œÿ√ ›Ì „Ê›ﬁ «·»—Ê ÊﬂÊ·
+    nt secondary err code: 0
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12203, connecting to:
+ (DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=BEQ)(PROGRAM=oracle80)(ARGV0=oracle80ORCL)(ARGS='(DESCRIPTION=(LOCAL=YES)(ADDRESS=(PROTOCOL=beq)))')))(CONNECT_DATA=(SID=ORCL)(CID=(PROGRAM=C:\orant\BIN\ifrun60.EXE)(HOST=OSMAN-PC)(USER=OSMAN))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 8.0.6.0.0 - Production
+	Oracle Bequeath NT Protocol Adapter for 32-bit Windows: Version 8.0.6.0.0 - Production
+  Time: 23-02-20 19:14:42
+  Tracing not turned on.
+  Tns error struct:
+    nr err code: 12203
+    TNS-12203: TNS:·„ Ì „ «· „ﬂ‰ „‰ «·« ’«· »«·ÊÃÂ… «·„Õœœ…
+    ns main err code: 12560
+    TNS-12560: TNS:ÌÊÃœ Œÿ√ ›Ì „Ê›ﬁ «·»—Ê ÊﬂÊ·
+    ns secondary err code: 0
+    nt main err code: 530
+    TNS-00530: ÌÊÃœ Œÿ√ ›Ì „Ê›ﬁ «·»—Ê ÊﬂÊ·
+    nt secondary err code: 0
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12203, connecting to:
+ (DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=BEQ)(PROGRAM=oracle80)(ARGV0=oracle80ORCL)(ARGS='(DESCRIPTION=(LOCAL=YES)(ADDRESS=(PROTOCOL=beq)))')))(CONNECT_DATA=(SID=ORCL)(CID=(PROGRAM=C:\orant\BIN\ifrun60.EXE)(HOST=OSMAN-PC)(USER=OSMAN))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 8.0.6.0.0 - Production
+	Oracle Bequeath NT Protocol Adapter for 32-bit Windows: Version 8.0.6.0.0 - Production
+  Time: 23-02-20 19:14:42
+  Tracing not turned on.
+  Tns error struct:
+    nr err code: 12203
+    TNS-12203: TNS:·„ Ì „ «· „ﬂ‰ „‰ «·« ’«· »«·ÊÃÂ… «·„Õœœ…
+    ns main err code: 12560
+    TNS-12560: TNS:ÌÊÃœ Œÿ√ ›Ì „Ê›ﬁ «·»—Ê ÊﬂÊ·
+    ns secondary err code: 0
+    nt main err code: 530
+    TNS-00530: ÌÊÃœ Œÿ√ ›Ì „Ê›ﬁ «·»—Ê ÊﬂÊ·
+    nt secondary err code: 0
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12203, connecting to:
+ (DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=BEQ)(PROGRAM=oracle80)(ARGV0=oracle80ORCL)(ARGS='(DESCRIPTION=(LOCAL=YES)(ADDRESS=(PROTOCOL=beq)))')))(CONNECT_DATA=(SID=ORCL)(CID=(PROGRAM=C:\orant\BIN\ifrun60.EXE)(HOST=DESKTOP-3B7L4J5)(USER=Administrator))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 8.0.6.0.0 - Production
+	Oracle Bequeath NT Protocol Adapter for 32-bit Windows: Version 8.0.6.0.0 - Production
+  Time: 04-07-25 20:34:33
+  Tracing not turned on.
+  Tns error struct:
+    nr err code: 12203
+    TNS-12203: TNS:·„ Ì „ «· „ﬂ‰ „‰ «·« ’«· »«·ÊÃÂ… «·„Õœœ…
+    ns main err code: 12560
+    TNS-12560: TNS:ÌÊÃœ Œÿ√ ›Ì „Ê›ﬁ «·»—Ê ÊﬂÊ·
+    ns secondary err code: 0
+    nt main err code: 530
+    TNS-00530: ÌÊÃœ Œÿ√ ›Ì „Ê›ﬁ «·»—Ê ÊﬂÊ·
+    nt secondary err code: 0
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12203, connecting to:
+ (DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=BEQ)(PROGRAM=oracle80)(ARGV0=oracle80ORCL)(ARGS='(DESCRIPTION=(LOCAL=YES)(ADDRESS=(PROTOCOL=beq)))')))(CONNECT_DATA=(SID=ORCL)(CID=(PROGRAM=C:\orant\BIN\ifrun60.EXE)(HOST=DESKTOP-3B7L4J5)(USER=Administrator))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 8.0.6.0.0 - Production
+	Oracle Bequeath NT Protocol Adapter for 32-bit Windows: Version 8.0.6.0.0 - Production
+  Time: 04-07-25 20:34:35
+  Tracing not turned on.
+  Tns error struct:
+    nr err code: 12203
+    TNS-12203: TNS:·„ Ì „ «· „ﬂ‰ „‰ «·« ’«· »«·ÊÃÂ… «·„Õœœ…
+    ns main err code: 12560
+    TNS-12560: TNS:ÌÊÃœ Œÿ√ ›Ì „Ê›ﬁ «·»—Ê ÊﬂÊ·
+    ns secondary err code: 0
+    nt main err code: 530
+    TNS-00530: ÌÊÃœ Œÿ√ ›Ì „Ê›ﬁ «·»—Ê ÊﬂÊ·
+    nt secondary err code: 0
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12203, connecting to:
+ (DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=BEQ)(PROGRAM=oracle80)(ARGV0=oracle80ORCL)(ARGS='(DESCRIPTION=(LOCAL=YES)(ADDRESS=(PROTOCOL=beq)))')))(CONNECT_DATA=(SID=ORCL)(CID=(PROGRAM=C:\orant\BIN\ifrun60.EXE)(HOST=DESKTOP-3B7L4J5)(USER=Administrator))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 8.0.6.0.0 - Production
+	Oracle Bequeath NT Protocol Adapter for 32-bit Windows: Version 8.0.6.0.0 - Production
+  Time: 04-07-25 20:34:35
+  Tracing not turned on.
+  Tns error struct:
+    nr err code: 12203
+    TNS-12203: TNS:·„ Ì „ «· „ﬂ‰ „‰ «·« ’«· »«·ÊÃÂ… «·„Õœœ…
+    ns main err code: 12560
+    TNS-12560: TNS:ÌÊÃœ Œÿ√ ›Ì „Ê›ﬁ «·»—Ê ÊﬂÊ·
+    ns secondary err code: 0
+    nt main err code: 530
+    TNS-00530: ÌÊÃœ Œÿ√ ›Ì „Ê›ﬁ «·»—Ê ÊﬂÊ·
+    nt secondary err code: 0
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12224, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=DESKTOP-3B7L4J5)(PORT=1521))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=orcl)(CID=(PROGRAM=C:\orant\BIN\ifrun60.EXE)(HOST=DESKTOP-3B7L4J5)(USER=Administrator))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 8.0.6.0.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 8.0.6.0.0 - Production
+  Time: 04-07-25 20:35:13
+  Tracing not turned on.
+  Tns error struct:
+    nr err code: 12224
+    TNS-12224: TNS:·« ÌÊÃœ »—‰«„Ã „ ’‰ 
+    ns main err code: 12541
+    TNS-12541: TNS:·« ÌÊÃœ »—‰«„Ã „ ’‰ 
+    ns secondary err code: 12560
+    nt main err code: 511
+    TNS-00511: ·« ÌÊÃœ „ ’‰ 
+    nt secondary err code: 61
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12224, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=DESKTOP-3B7L4J5)(PORT=1521))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=orcl)(CID=(PROGRAM=C:\orant\BIN\ifrun60.EXE)(HOST=DESKTOP-3B7L4J5)(USER=Administrator))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 8.0.6.0.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 8.0.6.0.0 - Production
+  Time: 04-07-25 20:35:24
+  Tracing not turned on.
+  Tns error struct:
+    nr err code: 12224
+    TNS-12224: TNS:·« ÌÊÃœ »—‰«„Ã „ ’‰ 
+    ns main err code: 12541
+    TNS-12541: TNS:·« ÌÊÃœ »—‰«„Ã „ ’‰ 
+    ns secondary err code: 12560
+    nt main err code: 511
+    TNS-00511: ·« ÌÊÃœ „ ’‰ 
+    nt secondary err code: 61
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12203, connecting to:
+ (DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=BEQ)(PROGRAM=oracle80)(ARGV0=oracle80ORCL)(ARGS='(DESCRIPTION=(LOCAL=YES)(ADDRESS=(PROTOCOL=beq)))')))(CONNECT_DATA=(SID=ORCL)(CID=(PROGRAM=C:\orant\BIN\ifrun60.EXE)(HOST=DESKTOP-3B7L4J5)(USER=Administrator))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 8.0.6.0.0 - Production
+	Oracle Bequeath NT Protocol Adapter for 32-bit Windows: Version 8.0.6.0.0 - Production
+  Time: 04-07-25 20:35:29
+  Tracing not turned on.
+  Tns error struct:
+    nr err code: 12203
+    TNS-12203: TNS:·„ Ì „ «· „ﬂ‰ „‰ «·« ’«· »«·ÊÃÂ… «·„Õœœ…
+    ns main err code: 12560
+    TNS-12560: TNS:ÌÊÃœ Œÿ√ ›Ì „Ê›ﬁ «·»—Ê ÊﬂÊ·
+    ns secondary err code: 0
+    nt main err code: 530
+    TNS-00530: ÌÊÃœ Œÿ√ ›Ì „Ê›ﬁ «·»—Ê ÊﬂÊ·
+    nt secondary err code: 0
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12203, connecting to:
+ (DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=BEQ)(PROGRAM=oracle80)(ARGV0=oracle80ORCL)(ARGS='(DESCRIPTION=(LOCAL=YES)(ADDRESS=(PROTOCOL=beq)))')))(CONNECT_DATA=(SID=ORCL)(CID=(PROGRAM=C:\orant\BIN\ifrun60.EXE)(HOST=DESKTOP-3B7L4J5)(USER=Administrator))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 8.0.6.0.0 - Production
+	Oracle Bequeath NT Protocol Adapter for 32-bit Windows: Version 8.0.6.0.0 - Production
+  Time: 04-07-25 20:35:29
+  Tracing not turned on.
+  Tns error struct:
+    nr err code: 12203
+    TNS-12203: TNS:·„ Ì „ «· „ﬂ‰ „‰ «·« ’«· »«·ÊÃÂ… «·„Õœœ…
+    ns main err code: 12560
+    TNS-12560: TNS:ÌÊÃœ Œÿ√ ›Ì „Ê›ﬁ «·»—Ê ÊﬂÊ·
+    ns secondary err code: 0
+    nt main err code: 530
+    TNS-00530: ÌÊÃœ Œÿ√ ›Ì „Ê›ﬁ «·»—Ê ÊﬂÊ·
+    nt secondary err code: 0
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12203, connecting to:
+ (DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=BEQ)(PROGRAM=oracle80)(ARGV0=oracle80ORCL)(ARGS='(DESCRIPTION=(LOCAL=YES)(ADDRESS=(PROTOCOL=beq)))')))(CONNECT_DATA=(SID=ORCL)(CID=(PROGRAM=C:\orant\BIN\ifrun60.EXE)(HOST=DESKTOP-3B7L4J5)(USER=Administrator))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 8.0.6.0.0 - Production
+	Oracle Bequeath NT Protocol Adapter for 32-bit Windows: Version 8.0.6.0.0 - Production
+  Time: 04-07-25 20:36:41
+  Tracing not turned on.
+  Tns error struct:
+    nr err code: 12203
+    TNS-12203: TNS:·„ Ì „ «· „ﬂ‰ „‰ «·« ’«· »«·ÊÃÂ… «·„Õœœ…
+    ns main err code: 12560
+    TNS-12560: TNS:ÌÊÃœ Œÿ√ ›Ì „Ê›ﬁ «·»—Ê ÊﬂÊ·
+    ns secondary err code: 0
+    nt main err code: 530
+    TNS-00530: ÌÊÃœ Œÿ√ ›Ì „Ê›ﬁ «·»—Ê ÊﬂÊ·
+    nt secondary err code: 0
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12203, connecting to:
+ (DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=BEQ)(PROGRAM=oracle80)(ARGV0=oracle80ORCL)(ARGS='(DESCRIPTION=(LOCAL=YES)(ADDRESS=(PROTOCOL=beq)))')))(CONNECT_DATA=(SID=ORCL)(CID=(PROGRAM=C:\orant\BIN\ifrun60.EXE)(HOST=DESKTOP-3B7L4J5)(USER=Administrator))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 8.0.6.0.0 - Production
+	Oracle Bequeath NT Protocol Adapter for 32-bit Windows: Version 8.0.6.0.0 - Production
+  Time: 04-07-25 20:36:52
+  Tracing not turned on.
+  Tns error struct:
+    nr err code: 12203
+    TNS-12203: TNS:·„ Ì „ «· „ﬂ‰ „‰ «·« ’«· »«·ÊÃÂ… «·„Õœœ…
+    ns main err code: 12560
+    TNS-12560: TNS:ÌÊÃœ Œÿ√ ›Ì „Ê›ﬁ «·»—Ê ÊﬂÊ·
+    ns secondary err code: 0
+    nt main err code: 530
+    TNS-00530: ÌÊÃœ Œÿ√ ›Ì „Ê›ﬁ «·»—Ê ÊﬂÊ·
+    nt secondary err code: 0
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12203, connecting to:
+ (DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=BEQ)(PROGRAM=oracle80)(ARGV0=oracle80ORCL)(ARGS='(DESCRIPTION=(LOCAL=YES)(ADDRESS=(PROTOCOL=beq)))')))(CONNECT_DATA=(SID=ORCL)(CID=(PROGRAM=C:\orant\BIN\ifrun60.EXE)(HOST=DESKTOP-3B7L4J5)(USER=Administrator))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 8.0.6.0.0 - Production
+	Oracle Bequeath NT Protocol Adapter for 32-bit Windows: Version 8.0.6.0.0 - Production
+  Time: 04-07-25 20:36:54
+  Tracing not turned on.
+  Tns error struct:
+    nr err code: 12203
+    TNS-12203: TNS:·„ Ì „ «· „ﬂ‰ „‰ «·« ’«· »«·ÊÃÂ… «·„Õœœ…
+    ns main err code: 12560
+    TNS-12560: TNS:ÌÊÃœ Œÿ√ ›Ì „Ê›ﬁ «·»—Ê ÊﬂÊ·
+    ns secondary err code: 0
+    nt main err code: 530
+    TNS-00530: ÌÊÃœ Œÿ√ ›Ì „Ê›ﬁ «·»—Ê ÊﬂÊ·
+    nt secondary err code: 0
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12203, connecting to:
+ (DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=BEQ)(PROGRAM=oracle80)(ARGV0=oracle80ORCL)(ARGS='(DESCRIPTION=(LOCAL=YES)(ADDRESS=(PROTOCOL=beq)))')))(CONNECT_DATA=(SID=ORCL)(CID=(PROGRAM=C:\orant\BIN\ifrun60.EXE)(HOST=DESKTOP-3B7L4J5)(USER=Administrator))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 8.0.6.0.0 - Production
+	Oracle Bequeath NT Protocol Adapter for 32-bit Windows: Version 8.0.6.0.0 - Production
+  Time: 04-07-25 20:36:54
+  Tracing not turned on.
+  Tns error struct:
+    nr err code: 12203
+    TNS-12203: TNS:·„ Ì „ «· „ﬂ‰ „‰ «·« ’«· »«·ÊÃÂ… «·„Õœœ…
+    ns main err code: 12560
+    TNS-12560: TNS:ÌÊÃœ Œÿ√ ›Ì „Ê›ﬁ «·»—Ê ÊﬂÊ·
+    ns secondary err code: 0
+    nt main err code: 530
+    TNS-00530: ÌÊÃœ Œÿ√ ›Ì „Ê›ﬁ «·»—Ê ÊﬂÊ·
+    nt secondary err code: 0
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12203, connecting to:
+ (DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=BEQ)(PROGRAM=oracle80)(ARGV0=oracle80ORCL)(ARGS='(DESCRIPTION=(LOCAL=YES)(ADDRESS=(PROTOCOL=beq)))')))(CONNECT_DATA=(SID=ORCL)(CID=(PROGRAM=C:\orant\BIN\ifrun60.EXE)(HOST=DESKTOP-3B7L4J5)(USER=Administrator))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 8.0.6.0.0 - Production
+	Oracle Bequeath NT Protocol Adapter for 32-bit Windows: Version 8.0.6.0.0 - Production
+  Time: 04-07-25 20:37:19
+  Tracing not turned on.
+  Tns error struct:
+    nr err code: 12203
+    TNS-12203: TNS:·„ Ì „ «· „ﬂ‰ „‰ «·« ’«· »«·ÊÃÂ… «·„Õœœ…
+    ns main err code: 12560
+    TNS-12560: TNS:ÌÊÃœ Œÿ√ ›Ì „Ê›ﬁ «·»—Ê ÊﬂÊ·
+    ns secondary err code: 0
+    nt main err code: 530
+    TNS-00530: ÌÊÃœ Œÿ√ ›Ì „Ê›ﬁ «·»—Ê ÊﬂÊ·
+    nt secondary err code: 0
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12203, connecting to:
+ (DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=BEQ)(PROGRAM=oracle80)(ARGV0=oracle80ORCL)(ARGS='(DESCRIPTION=(LOCAL=YES)(ADDRESS=(PROTOCOL=beq)))')))(CONNECT_DATA=(SID=ORCL)(CID=(PROGRAM=C:\orant\BIN\ifrun60.EXE)(HOST=DESKTOP-3B7L4J5)(USER=Administrator))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 8.0.6.0.0 - Production
+	Oracle Bequeath NT Protocol Adapter for 32-bit Windows: Version 8.0.6.0.0 - Production
+  Time: 04-07-25 20:37:20
+  Tracing not turned on.
+  Tns error struct:
+    nr err code: 12203
+    TNS-12203: TNS:·„ Ì „ «· „ﬂ‰ „‰ «·« ’«· »«·ÊÃÂ… «·„Õœœ…
+    ns main err code: 12560
+    TNS-12560: TNS:ÌÊÃœ Œÿ√ ›Ì „Ê›ﬁ «·»—Ê ÊﬂÊ·
+    ns secondary err code: 0
+    nt main err code: 530
+    TNS-00530: ÌÊÃœ Œÿ√ ›Ì „Ê›ﬁ «·»—Ê ÊﬂÊ·
+    nt secondary err code: 0
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12203, connecting to:
+ (DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=BEQ)(PROGRAM=oracle80)(ARGV0=oracle80ORCL)(ARGS='(DESCRIPTION=(LOCAL=YES)(ADDRESS=(PROTOCOL=beq)))')))(CONNECT_DATA=(SID=ORCL)(CID=(PROGRAM=C:\orant\BIN\ifrun60.EXE)(HOST=DESKTOP-3B7L4J5)(USER=Administrator))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 8.0.6.0.0 - Production
+	Oracle Bequeath NT Protocol Adapter for 32-bit Windows: Version 8.0.6.0.0 - Production
+  Time: 04-07-25 20:37:21
+  Tracing not turned on.
+  Tns error struct:
+    nr err code: 12203
+    TNS-12203: TNS:·„ Ì „ «· „ﬂ‰ „‰ «·« ’«· »«·ÊÃÂ… «·„Õœœ…
+    ns main err code: 12560
+    TNS-12560: TNS:ÌÊÃœ Œÿ√ ›Ì „Ê›ﬁ «·»—Ê ÊﬂÊ·
+    ns secondary err code: 0
+    nt main err code: 530
+    TNS-00530: ÌÊÃœ Œÿ√ ›Ì „Ê›ﬁ «·»—Ê ÊﬂÊ·
+    nt secondary err code: 0
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12224, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=DESKTOP-3B7L4J5)(PORT=1521))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=orcl)(CID=(PROGRAM=C:\orant\BIN\ifrun60.EXE)(HOST=DESKTOP-3B7L4J5)(USER=Administrator))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 8.0.6.0.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 8.0.6.0.0 - Production
+  Time: 05-07-25 09:15:17
+  Tracing not turned on.
+  Tns error struct:
+    nr err code: 12224
+    TNS-12224: TNS:·« ÌÊÃœ »—‰«„Ã „ ’‰ 
+    ns main err code: 12541
+    TNS-12541: TNS:·« ÌÊÃœ »—‰«„Ã „ ’‰ 
+    ns secondary err code: 12560
+    nt main err code: 511
+    TNS-00511: ·« ÌÊÃœ „ ’‰ 
+    nt secondary err code: 61
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12203, connecting to:
+ (DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=BEQ)(PROGRAM=oracle80)(ARGV0=oracle80ORCL)(ARGS='(DESCRIPTION=(LOCAL=YES)(ADDRESS=(PROTOCOL=beq)))')))(CONNECT_DATA=(SID=ORCL)(CID=(PROGRAM=C:\orant\BIN\ifrun60.EXE)(HOST=DESKTOP-3B7L4J5)(USER=Administrator))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 8.0.6.0.0 - Production
+	Oracle Bequeath NT Protocol Adapter for 32-bit Windows: Version 8.0.6.0.0 - Production
+  Time: 05-07-25 09:15:21
+  Tracing not turned on.
+  Tns error struct:
+    nr err code: 12203
+    TNS-12203: TNS:·„ Ì „ «· „ﬂ‰ „‰ «·« ’«· »«·ÊÃÂ… «·„Õœœ…
+    ns main err code: 12560
+    TNS-12560: TNS:ÌÊÃœ Œÿ√ ›Ì „Ê›ﬁ «·»—Ê ÊﬂÊ·
+    ns secondary err code: 0
+    nt main err code: 530
+    TNS-00530: ÌÊÃœ Œÿ√ ›Ì „Ê›ﬁ «·»—Ê ÊﬂÊ·
+    nt secondary err code: 0
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12203, connecting to:
+ (DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=BEQ)(PROGRAM=oracle80)(ARGV0=oracle80ORCL)(ARGS='(DESCRIPTION=(LOCAL=YES)(ADDRESS=(PROTOCOL=beq)))')))(CONNECT_DATA=(SID=ORCL)(CID=(PROGRAM=C:\orant\BIN\ifrun60.EXE)(HOST=DESKTOP-3B7L4J5)(USER=Administrator))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 8.0.6.0.0 - Production
+	Oracle Bequeath NT Protocol Adapter for 32-bit Windows: Version 8.0.6.0.0 - Production
+  Time: 05-07-25 09:15:21
+  Tracing not turned on.
+  Tns error struct:
+    nr err code: 12203
+    TNS-12203: TNS:·„ Ì „ «· „ﬂ‰ „‰ «·« ’«· »«·ÊÃÂ… «·„Õœœ…
+    ns main err code: 12560
+    TNS-12560: TNS:ÌÊÃœ Œÿ√ ›Ì „Ê›ﬁ «·»—Ê ÊﬂÊ·
+    ns secondary err code: 0
+    nt main err code: 530
+    TNS-00530: ÌÊÃœ Œÿ√ ›Ì „Ê›ﬁ «·»—Ê ÊﬂÊ·
+    nt secondary err code: 0
+    nt OS err code: 0
