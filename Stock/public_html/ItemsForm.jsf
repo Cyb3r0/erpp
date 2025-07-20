@@ -1,0 +1,278 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE html>
+<f:view xmlns:f="http://java.sun.com/jsf/core" xmlns:af="http://xmlns.oracle.com/adf/faces/rich">
+    <af:document title="ItemsForm.jsf" id="d1" binding="#{backingBeanScope.ItemsForm.d1}">
+        <af:messages id="m1" binding="#{backingBeanScope.ItemsForm.m1}"/>
+        <af:form id="f1" binding="#{backingBeanScope.ItemsForm.f1}">
+            <af:pageTemplate viewId="/Temp.jsf" id="pt1" binding="#{backingBeanScope.ItemsForm.pt1}">
+                <f:facet name="center">
+                    <af:panelGroupLayout id="pgl1" binding="#{backingBeanScope.ItemsForm.pgl1}" layout="vertical"
+                                         halign="center">
+                        <af:panelBox text="البحث فى الاصناف" id="pb1" binding="#{backingBeanScope.ItemsForm.pb1}"
+                                     inlineStyle="width:66%;">
+                            <f:facet name="toolbar"/>
+                            <af:table value="#{bindings.ItemsView1.collectionModel}" var="row"
+                                      rows="#{bindings.ItemsView1.rangeSize}"
+                                      emptyText="#{bindings.ItemsView1.viewable ? 'No data to display.' : 'Access Denied.'}"
+                                      rowBandingInterval="1"
+                                      selectedRowKeys="#{bindings.ItemsView1.collectionModel.selectedRow}"
+                                      selectionListener="#{bindings.ItemsView1.collectionModel.makeCurrent}"
+                                      rowSelection="single" fetchSize="#{bindings.ItemsView1.rangeSize}"
+                                      filterModel="#{bindings.ItemsView1Query.queryDescriptor}"
+                                      queryListener="#{bindings.ItemsView1Query.processQuery}" filterVisible="true"
+                                      varStatus="vs" id="t1" binding="#{backingBeanScope.ItemsForm.t1}"
+                                      columnStretching="column:c3" partialTriggers="::b1 ::b2 ::b3 ::d2" columnBandingInterval="0"
+                                      autoHeightRows="8" width="799">
+                                <af:column sortProperty="#{bindings.ItemsView1.hints.ItemCode.name}" filterable="true"
+                                           sortable="true" headerText="#{bindings.ItemsView1.hints.ItemCode.label}"
+                                           id="c1" align="center" width="50">
+                                    <af:inputText value="#{row.bindings.ItemCode.inputValue}"
+                                                  label="#{bindings.ItemsView1.hints.ItemCode.label}"
+                                                  required="#{bindings.ItemsView1.hints.ItemCode.mandatory}"
+                                                  columns="#{bindings.ItemsView1.hints.ItemCode.displayWidth}"
+                                                  maximumLength="#{bindings.ItemsView1.hints.ItemCode.precision}"
+                                                  shortDesc="#{bindings.ItemsView1.hints.ItemCode.tooltip}" id="it1"
+                                                  readOnly="true" inlineStyle="text-align:center;">
+                                        <f:validator binding="#{row.bindings.ItemCode.validator}"/>
+                                        <af:convertNumber groupingUsed="false"
+                                                          pattern="#{bindings.ItemsView1.hints.ItemCode.format}"/>
+                                    </af:inputText>
+                                </af:column>
+                                <af:column sortProperty="#{bindings.ItemsView1.hints.ItemType.name}" filterable="true"
+                                           sortable="true" headerText="#{bindings.ItemsView1.hints.ItemType.label}"
+                                           id="c2" align="center" width="200">
+                                    <af:selectOneChoice value="#{row.bindings.ItemType.inputValue}"
+                                                        label="#{row.bindings.ItemType.label}"
+                                                        required="#{bindings.ItemsView1.hints.ItemType.mandatory}"
+                                                        shortDesc="#{bindings.ItemsView1.hints.ItemType.tooltip}"
+                                                        id="soc1" contentStyle="width:300px">
+                                        <f:selectItems value="#{row.bindings.ItemType.items}" id="si1"/>
+                                        <f:validator binding="#{row.bindings.ItemType.validator}"/>
+                                    </af:selectOneChoice>
+                                </af:column>
+                                <af:column sortProperty="#{bindings.ItemsView1.hints.ItemName.name}" filterable="true"
+                                           sortable="true" headerText="#{bindings.ItemsView1.hints.ItemName.label}"
+                                           id="c3" align="center">
+                                    <af:inputText value="#{row.bindings.ItemName.inputValue}"
+                                                  label="#{bindings.ItemsView1.hints.ItemName.label}"
+                                                  required="#{bindings.ItemsView1.hints.ItemName.mandatory}"
+                                                  columns="#{bindings.ItemsView1.hints.ItemName.displayWidth}"
+                                                  maximumLength="#{bindings.ItemsView1.hints.ItemName.precision}"
+                                                  shortDesc="#{bindings.ItemsView1.hints.ItemName.tooltip}" id="it2"
+                                                  readOnly="true" inlineStyle="text-align:center;">
+                                        <f:validator binding="#{row.bindings.ItemName.validator}"/>
+                                    </af:inputText>
+                                </af:column>
+                                <af:column sortProperty="#{bindings.ItemsView1.hints.ItemNameEn.name}" filterable="true"
+                                           sortable="true" headerText="#{bindings.ItemsView1.hints.ItemNameEn.label}"
+                                           id="c4" align="center">
+                                    <af:inputText value="#{row.bindings.ItemNameEn.inputValue}"
+                                                  label="#{bindings.ItemsView1.hints.ItemNameEn.label}"
+                                                  required="#{bindings.ItemsView1.hints.ItemNameEn.mandatory}"
+                                                  columns="#{bindings.ItemsView1.hints.ItemNameEn.displayWidth}"
+                                                  maximumLength="#{bindings.ItemsView1.hints.ItemNameEn.precision}"
+                                                  shortDesc="#{bindings.ItemsView1.hints.ItemNameEn.tooltip}" id="it3"
+                                                  readOnly="true" inlineStyle="text-align:center;">
+                                        <f:validator binding="#{row.bindings.ItemNameEn.validator}"/>
+                                    </af:inputText>
+                                </af:column>
+                                <af:column sortProperty="#{bindings.ItemsView1.hints.UnitName.name}" filterable="true"
+                                           sortable="true" headerText="#{bindings.ItemsView1.hints.UnitName.label}"
+                                           id="c5" align="center">
+                                    <af:selectOneChoice value="#{row.bindings.UnitName.inputValue}"
+                                                        label="#{row.bindings.UnitName.label}"
+                                                        required="#{bindings.ItemsView1.hints.UnitName.mandatory}"
+                                                        shortDesc="#{bindings.ItemsView1.hints.UnitName.tooltip}"
+                                                        id="soc2">
+                                        <f:selectItems value="#{row.bindings.UnitName.items}" id="si2"/>
+                                        <f:validator binding="#{row.bindings.UnitName.validator}"/>
+                                    </af:selectOneChoice>
+                                </af:column>
+                                <af:column sortProperty="#{bindings.ItemsView1.hints.AlertQuan.name}" filterable="true"
+                                           sortable="true" headerText="#{bindings.ItemsView1.hints.AlertQuan.label}"
+                                           id="c6" align="center">
+                                    <af:inputText value="#{row.bindings.AlertQuan.inputValue}"
+                                                  label="#{bindings.ItemsView1.hints.AlertQuan.label}"
+                                                  required="#{bindings.ItemsView1.hints.AlertQuan.mandatory}"
+                                                  columns="10"
+                                                  maximumLength="#{bindings.ItemsView1.hints.AlertQuan.precision}"
+                                                  shortDesc="#{bindings.ItemsView1.hints.AlertQuan.tooltip}" id="it4"
+                                                  readOnly="true" inlineStyle="text-align:center;">
+                                        <f:validator binding="#{row.bindings.AlertQuan.validator}"/>
+                                        <af:convertNumber groupingUsed="false"
+                                                          pattern="#{bindings.ItemsView1.hints.AlertQuan.format}"/>
+                                    </af:inputText>
+                                </af:column>
+                                <af:column sortProperty="#{bindings.ItemsView1.hints.ItemBuy.name}" filterable="true"
+                                           sortable="true" headerText="#{bindings.ItemsView1.hints.ItemBuy.label}"
+                                           id="c7" align="center">
+                                    <af:inputText value="#{row.bindings.ItemBuy.inputValue}"
+                                                  label="#{bindings.ItemsView1.hints.ItemBuy.label}"
+                                                  required="#{bindings.ItemsView1.hints.ItemBuy.mandatory}" columns="10"
+                                                  maximumLength="#{bindings.ItemsView1.hints.ItemBuy.precision}"
+                                                  shortDesc="#{bindings.ItemsView1.hints.ItemBuy.tooltip}" id="it5"
+                                                  readOnly="true" inlineStyle="text-align:center;">
+                                        <f:validator binding="#{row.bindings.ItemBuy.validator}"/>
+                                        <af:convertNumber groupingUsed="false"
+                                                          pattern="#{bindings.ItemsView1.hints.ItemBuy.format}"/>
+                                    </af:inputText>
+                                </af:column>
+                                <af:column sortProperty="#{bindings.ItemsView1.hints.ItemCost.name}" filterable="true"
+                                           sortable="true" headerText="#{bindings.ItemsView1.hints.ItemCost.label}"
+                                           id="c8" align="center">
+                                    <af:inputText value="#{row.bindings.ItemCost.inputValue}"
+                                                  label="#{bindings.ItemsView1.hints.ItemCost.label}"
+                                                  required="#{bindings.ItemsView1.hints.ItemCost.mandatory}"
+                                                  columns="10"
+                                                  maximumLength="#{bindings.ItemsView1.hints.ItemCost.precision}"
+                                                  shortDesc="#{bindings.ItemsView1.hints.ItemCost.tooltip}" id="it6"
+                                                  readOnly="true" inlineStyle="text-align:center;">
+                                        <f:validator binding="#{row.bindings.ItemCost.validator}"/>
+                                        <af:convertNumber groupingUsed="false"
+                                                          pattern="#{bindings.ItemsView1.hints.ItemCost.format}"/>
+                                    </af:inputText>
+                                </af:column>
+                                <af:column sortProperty="#{bindings.ItemsView1.hints.TaxRat.name}" filterable="true"
+                                           sortable="true" headerText="#{bindings.ItemsView1.hints.TaxRat.label}"
+                                           id="c9" align="center">
+                                    <af:inputText value="#{row.bindings.TaxRat.inputValue}"
+                                                  label="#{bindings.ItemsView1.hints.TaxRat.label}"
+                                                  required="#{bindings.ItemsView1.hints.TaxRat.mandatory}" columns="10"
+                                                  maximumLength="#{bindings.ItemsView1.hints.TaxRat.precision}"
+                                                  shortDesc="#{bindings.ItemsView1.hints.TaxRat.tooltip}" id="it7"
+                                                  readOnly="true" inlineStyle="text-align:center;">
+                                        <f:validator binding="#{row.bindings.TaxRat.validator}"/>
+                                        <af:convertNumber groupingUsed="false"
+                                                          pattern="#{bindings.ItemsView1.hints.TaxRat.format}"/>
+                                    </af:inputText>
+                                </af:column>
+                            </af:table>
+                        </af:panelBox>
+                        <af:panelBox text="ادخال صنف جديد" id="pb2" binding="#{backingBeanScope.ItemsForm.pb2}"
+                                     inlineStyle="width:66%;" partialTriggers="d2 b1">
+                            <f:facet name="toolbar"/>
+                            <af:panelFormLayout id="pfl1" binding="#{backingBeanScope.ItemsForm.pfl1}"
+                                                partialTriggers="t1">
+                                <af:inputText value="#{bindings.ItemCode.inputValue}"
+                                              label="#{bindings.ItemCode.hints.label}"
+                                              required="#{bindings.ItemCode.hints.mandatory}" columns="10"
+                                              maximumLength="#{bindings.ItemCode.hints.precision}"
+                                              shortDesc="#{bindings.ItemCode.hints.tooltip}" id="it8"
+                                              binding="#{backingBeanScope.ItemsForm.it8}" readOnly="true">
+                                    <f:validator binding="#{bindings.ItemCode.validator}"/>
+                                    <af:convertNumber groupingUsed="false" pattern="#{bindings.ItemCode.format}"/>
+                                </af:inputText>
+                                <af:selectOneChoice value="#{bindings.ItemType.inputValue}"
+                                                    label="#{bindings.ItemType.label}"
+                                                    required="#{bindings.ItemType.hints.mandatory}"
+                                                    shortDesc="#{bindings.ItemType.hints.tooltip}" id="soc3"
+                                                    binding="#{backingBeanScope.ItemsForm.soc3}"
+                                                    contentStyle="width:315px" readOnly="false">
+                                    <f:selectItems value="#{bindings.ItemType.items}" id="si3"
+                                                   binding="#{backingBeanScope.ItemsForm.si3}"/>
+                                    <f:validator binding="#{bindings.ItemType.validator}"/>
+                                </af:selectOneChoice>
+                                <af:inputText value="#{bindings.ItemName.inputValue}"
+                                              label="#{bindings.ItemName.hints.label}"
+                                              required="#{bindings.ItemName.hints.mandatory}" columns="50"
+                                              maximumLength="#{bindings.ItemName.hints.precision}"
+                                              shortDesc="#{bindings.ItemName.hints.tooltip}" id="it9"
+                                              binding="#{backingBeanScope.ItemsForm.it9}" autoSubmit="true">
+                                    <f:validator binding="#{bindings.ItemName.validator}"/>
+                                </af:inputText>
+                                <af:inputText value="#{bindings.ItemNameEn.inputValue}"
+                                              label="#{bindings.ItemNameEn.hints.label}"
+                                              required="#{bindings.ItemNameEn.hints.mandatory}" columns="50"
+                                              maximumLength="#{bindings.ItemNameEn.hints.precision}"
+                                              shortDesc="#{bindings.ItemNameEn.hints.tooltip}" id="it10"
+                                              binding="#{backingBeanScope.ItemsForm.it10}">
+                                    <f:validator binding="#{bindings.ItemNameEn.validator}"/>
+                                </af:inputText>
+                                <af:selectOneChoice value="#{bindings.UnitName.inputValue}"
+                                                    label="#{bindings.UnitName.label}"
+                                                    required="#{bindings.UnitName.hints.mandatory}"
+                                                    shortDesc="#{bindings.UnitName.hints.tooltip}" id="soc4"
+                                                    binding="#{backingBeanScope.ItemsForm.soc4}"
+                                                    contentStyle="width:315px" readOnly="true">
+                                    <f:selectItems value="#{bindings.UnitName.items}" id="si4"
+                                                   binding="#{backingBeanScope.ItemsForm.si4}"/>
+                                    <f:validator binding="#{bindings.UnitName.validator}"/>
+                                </af:selectOneChoice>
+                                <af:inputText value="#{bindings.AlertQuan.inputValue}"
+                                              label="#{bindings.AlertQuan.hints.label}"
+                                              required="#{bindings.AlertQuan.hints.mandatory}" columns="10"
+                                              maximumLength="#{bindings.AlertQuan.hints.precision}"
+                                              shortDesc="#{bindings.AlertQuan.hints.tooltip}" id="it11"
+                                              binding="#{backingBeanScope.ItemsForm.it11}">
+                                    <f:validator binding="#{bindings.AlertQuan.validator}"/>
+                                    <af:convertNumber groupingUsed="false" pattern="#{bindings.AlertQuan.format}"/>
+                                </af:inputText>
+                                <af:inputText value="#{bindings.ItemCost.inputValue}"
+                                              label="#{bindings.ItemCost.hints.label}"
+                                              required="#{bindings.ItemCost.hints.mandatory}" columns="10"
+                                              maximumLength="#{bindings.ItemCost.hints.precision}"
+                                              shortDesc="#{bindings.ItemCost.hints.tooltip}" id="it12"
+                                              binding="#{backingBeanScope.ItemsForm.it12}" autoSubmit="true">
+                                    <f:validator binding="#{bindings.ItemCost.validator}"/>
+                                </af:inputText>
+                                <af:inputText value="#{bindings.ItemBuy.inputValue}"
+                                              label="#{bindings.ItemBuy.hints.label}"
+                                              required="#{bindings.ItemBuy.hints.mandatory}" columns="10"
+                                              maximumLength="#{bindings.ItemBuy.hints.precision}"
+                                              shortDesc="#{bindings.ItemBuy.hints.tooltip}" id="it13"
+                                              binding="#{backingBeanScope.ItemsForm.it13}" autoSubmit="true">
+                                    <f:validator binding="#{bindings.ItemBuy.validator}"/>
+                                    <af:convertNumber groupingUsed="false" pattern="#{bindings.ItemBuy.format}"/>
+                                </af:inputText>
+                                <af:inputText value="#{bindings.TaxRat.inputValue}"
+                                              label="#{bindings.TaxRat.hints.label}"
+                                              required="#{bindings.TaxRat.hints.mandatory}" columns="10"
+                                              maximumLength="#{bindings.TaxRat.hints.precision}"
+                                              shortDesc="#{bindings.TaxRat.hints.tooltip}" id="it14"
+                                              binding="#{backingBeanScope.ItemsForm.it14}">
+                                    <f:validator binding="#{bindings.TaxRat.validator}"/>
+                                    <af:convertNumber groupingUsed="false" pattern="#{bindings.TaxRat.format}"/>
+                                </af:inputText>
+                                <af:inputText value="#{bindings.Notes.inputValue}" label="#{bindings.Notes.hints.label}"
+                                              required="#{bindings.Notes.hints.mandatory}" columns="50"
+                                              maximumLength="#{bindings.Notes.hints.precision}"
+                                              shortDesc="#{bindings.Notes.hints.tooltip}" id="it15"
+                                              binding="#{backingBeanScope.ItemsForm.it15}" rows="3">
+                                    <f:validator binding="#{bindings.Notes.validator}"/>
+                                </af:inputText>
+                                <af:selectBooleanCheckbox value="#{bindings.ActionToStock.inputValue}"
+                                                          label="#{bindings.ActionToStock.label}"
+                                                          shortDesc="#{bindings.ActionToStock.hints.tooltip}" id="sbc1"
+                                                          binding="#{backingBeanScope.ItemsForm.sbc1}"/>
+                                <af:toolbar id="t2" binding="#{backingBeanScope.ItemsForm.t2}">
+                                    <af:button actionListener="#{bindings.CreateInsert.execute}" text="جديد"
+                                               disabled="#{!bindings.CreateInsert.enabled}" id="b1"
+                                               binding="#{backingBeanScope.ItemsForm.b1}"/>
+                                    <af:button text="حذف"
+                                               disabled="#{!bindings.Delete.enabled}" id="b2"
+                                               binding="#{backingBeanScope.ItemsForm.b2}">
+                                        <af:showPopupBehavior popupId="p1"/>
+                                    </af:button>
+                                    <af:button actionListener="#{bindings.Commit.execute}" text="حفظ"
+                                               disabled="#{!bindings.Commit.enabled}" id="b3"
+                                               binding="#{backingBeanScope.ItemsForm.b3}"/>
+                                </af:toolbar>
+                            </af:panelFormLayout>
+                        </af:panelBox>
+                        <af:popup childCreation="deferred" autoCancel="disabled" id="p1"
+                                  binding="#{backingBeanScope.ItemsForm.p1}">
+                            <af:dialog id="d2" binding="#{backingBeanScope.ItemsForm.d2}"
+                                       dialogListener="#{backingBeanScope.ItemsForm.d2_dialogListener}"
+                                       inlineStyle="max-height:0%; max-width:0%; min-height:100pt; min-width:400pt;">
+                                <f:facet name="buttonBar"/>
+                                <af:outputText value="هل تريد حذف السجل" id="ot1"
+                                               binding="#{backingBeanScope.ItemsForm.ot1}"/>
+                            </af:dialog>
+                        </af:popup>
+                    </af:panelGroupLayout>
+                </f:facet>
+            </af:pageTemplate>
+        </af:form>
+    </af:document>
+    <!--oracle-jdev-comment:auto-binding-backing-bean-name:ItemsForm-->
+</f:view>

@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="windows-1256" ?>
+<!DOCTYPE Entity SYSTEM "jbo_03_01.dtd">
+<!---->
+<Entity
+  xmlns="http://xmlns.oracle.com/bc4j"
+  Name="Items"
+  Version="12.1.3.10.8"
+  InheritPersonalization="merge"
+  DBObjectType="table"
+  DBObjectName="ITEMS"
+  AliasName="Items"
+  BindingStyle="OracleName">
+  <Attribute
+    Name="ItemCode"
+    IsNotNull="true"
+    ColumnName="ITEM_CODE"
+    SQLType="NUMERIC"
+    Type="oracle.jbo.domain.Number"
+    ColumnType="NUMBER"
+    TableName="ITEMS"
+    PrimaryKey="true"/>
+  <Attribute
+    Name="ItemName"
+    IsUnique="true"
+    IsNotNull="true"
+    Precision="200"
+    ColumnName="ITEM_NAME"
+    SQLType="VARCHAR"
+    Type="java.lang.String"
+    ColumnType="VARCHAR2"
+    TableName="ITEMS">
+    <DesignTime>
+      <Attr Name="_DisplaySize" Value="200"/>
+    </DesignTime>
+  </Attribute>
+  <Attribute
+    Name="ItemType"
+    Precision="10"
+    ColumnName="ITEM_TYPE"
+    SQLType="VARCHAR"
+    Type="java.lang.String"
+    ColumnType="VARCHAR2"
+    TableName="ITEMS">
+    <DesignTime>
+      <Attr Name="_DisplaySize" Value="10"/>
+    </DesignTime>
+  </Attribute>
+  <Attribute
+    Name="ItemCost"
+    Precision="10"
+    Scale="2"
+    ColumnName="ITEM_COST"
+    SQLType="NUMERIC"
+    Type="oracle.jbo.domain.Number"
+    ColumnType="NUMBER"
+    TableName="ITEMS"/>
+  <Attribute
+    Name="Notes"
+    Precision="200"
+    ColumnName="NOTES"
+    SQLType="VARCHAR"
+    Type="java.lang.String"
+    ColumnType="VARCHAR2"
+    TableName="ITEMS">
+    <DesignTime>
+      <Attr Name="_DisplaySize" Value="200"/>
+    </DesignTime>
+  </Attribute>
+  <Attribute
+    Name="AlertQuan"
+    Precision="10"
+    Scale="0"
+    ColumnName="ALERT_QUAN"
+    SQLType="NUMERIC"
+    Type="oracle.jbo.domain.Number"
+    ColumnType="NUMBER"
+    TableName="ITEMS"/>
+  <Attribute
+    Name="UnitName"
+    Precision="200"
+    ColumnName="UNIT_NAME"
+    SQLType="VARCHAR"
+    Type="java.lang.String"
+    ColumnType="VARCHAR2"
+    TableName="ITEMS">
+    <DesignTime>
+      <Attr Name="_DisplaySize" Value="200"/>
+    </DesignTime>
+  </Attribute>
+  <Attribute
+    Name="ItemBuy"
+    Precision="10"
+    Scale="2"
+    ColumnName="ITEM_BUY"
+    SQLType="NUMERIC"
+    Type="oracle.jbo.domain.Number"
+    ColumnType="NUMBER"
+    TableName="ITEMS"/>
+  <Attribute
+    Name="Pic"
+    ColumnName="PIC"
+    SQLType="LONGVARBINARY"
+    Type="oracle.jbo.domain.Raw"
+    ColumnType="LONG RAW"
+    TableName="ITEMS"/>
+  <Attribute
+    Name="Filepath"
+    Precision="200"
+    ColumnName="FILEPATH"
+    SQLType="VARCHAR"
+    Type="java.lang.String"
+    ColumnType="VARCHAR2"
+    TableName="ITEMS">
+    <DesignTime>
+      <Attr Name="_DisplaySize" Value="200"/>
+    </DesignTime>
+  </Attribute>
+  <Attribute
+    Name="ItemNameEn"
+    Precision="200"
+    ColumnName="ITEM_NAME_EN"
+    SQLType="VARCHAR"
+    Type="java.lang.String"
+    ColumnType="VARCHAR2"
+    TableName="ITEMS">
+    <DesignTime>
+      <Attr Name="_DisplaySize" Value="200"/>
+    </DesignTime>
+  </Attribute>
+  <Attribute
+    Name="TaxRat"
+    Precision="5"
+    Scale="0"
+    ColumnName="TAX_RAT"
+    SQLType="NUMERIC"
+    Type="java.lang.Integer"
+    ColumnType="NUMBER"
+    TableName="ITEMS"/>
+  <Attribute
+    Name="ActionToStock"
+    Precision="2"
+    Scale="0"
+    ColumnName="ACTION_TO_STOCK"
+    SQLType="NUMERIC"
+    Type="java.lang.Integer"
+    ColumnType="NUMBER"
+    TableName="ITEMS"/>
+  <Key
+    Name="ItemsPk"
+    PrimaryKey="true">
+    <DesignTime>
+      <Attr Name="_DBObjectName" Value="ITEMS_PK"/>
+    </DesignTime>
+    <AttrArray Name="Attributes">
+      <Item Value="stock.EO.Items.ItemCode"/>
+    </AttrArray>
+  </Key>
+  <Key
+    Name="SysC006474">
+    <DesignTime>
+      <Attr Name="_isUnique" Value="true"/>
+      <Attr Name="_DBObjectName" Value="SYS_C006474"/>
+    </DesignTime>
+    <AttrArray Name="Attributes">
+      <Item Value="stock.EO.Items.ItemName"/>
+    </AttrArray>
+  </Key>
+</Entity>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="windows-1256"?>
+<faces-config version="2.1" xmlns="http://java.sun.com/xml/ns/javaee">
+  <application>
+    <default-render-kit-id>oracle.adf.rich</default-render-kit-id>
+    <locale-config>
+      <default-locale>ar</default-locale>
+    </locale-config>
+  </application>
+  <managed-bean>
+    <managed-bean-name>StartUp</managed-bean-name>
+    <managed-bean-class>stock.beans.StartUp</managed-bean-class>
+    <managed-bean-scope>request</managed-bean-scope>
+    <!--oracle-jdev-comment:managed-bean-jsp-link:1StartUp.jsf-->
+  </managed-bean>
+  <managed-bean>
+    <managed-bean-name>Items</managed-bean-name>
+    <managed-bean-class>stock.beans.Items</managed-bean-class>
+    <managed-bean-scope>request</managed-bean-scope>
+    <!--oracle-jdev-comment:managed-bean-jsp-link:1Items.jsf-->
+  </managed-bean>
+  <navigation-rule>
+    <from-view-id>/StartUp.jsf</from-view-id>
+    <navigation-case>
+      <from-outcome>gomainform</from-outcome>
+      <to-view-id>/MainForm.jsf</to-view-id>
+    </navigation-case>
+  </navigation-rule>
+  <navigation-rule>
+    <from-view-id>*</from-view-id>
+    <navigation-case>
+      <from-outcome>items</from-outcome>
+      <to-view-id>/Items.jsf</to-view-id>
+    </navigation-case>
+  </navigation-rule>
+</faces-config>

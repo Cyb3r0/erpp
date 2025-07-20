@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="windows-1256" ?>
+<!DOCTYPE AppModule SYSTEM "jbo_03_01.dtd">
+<!---->
+<AppModule
+  xmlns="http://xmlns.oracle.com/bc4j"
+  Name="AppModule"
+  Version="12.1.3.10.8"
+  InheritPersonalization="merge"
+  ClearCacheOnRollback="true"
+  ComponentClass="stock.ApplicationModule.AppModuleImpl">
+  <DesignTime>
+    <Attr Name="_isCodegen" Value="true"/>
+  </DesignTime>
+  <ViewUsage
+    Name="ItemsView1"
+    ViewObjectName="stock.UPvo.ItemsView"/>
+  <ViewUsage
+    Name="ItemsView2"
+    ViewObjectName="stock.ROvo.ItemsView"/>
+  <ViewUsage
+    Name="ItemTypesView1"
+    ViewObjectName="stock.UPvo.ItemTypesView"/>
+  <ViewUsage
+    Name="ItemTypesView2"
+    ViewObjectName="stock.ROvo.ItemTypesView"/>
+  <ViewUsage
+    Name="UnitName1"
+    ViewObjectName="stock.ROvo.UnitName"/>
+  <ViewUsage
+    Name="VItemTranRO1"
+    ViewObjectName="stock.ROvo.VItemTranRO"/>
+  <ViewUsage
+    Name="BlockSearchVItemTran1"
+    ViewObjectName="stock.ROvo.BlockSearchVItemTran"/>
+  <ViewUsage
+    Name="ItemListOfValue1"
+    ViewObjectName="stock.ROvo.ItemListOfValue"/>
+  <ViewUsage
+    Name="branchesListOfValue1"
+    ViewObjectName="stock.ROvo.branchesListOfValue"/>
+</AppModule>

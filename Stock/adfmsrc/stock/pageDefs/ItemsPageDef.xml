@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<pageDefinition xmlns="http://xmlns.oracle.com/adfm/uimodel" version="12.1.3.10.8" id="ItemsPageDef"
+                Package="stock.pageDefs">
+  <parameters/>
+  <executables>
+    <variableIterator id="variables"/>
+    <iterator Binds="ItemsView1_1" RangeSize="25" DataControl="AppModuleDataControl" id="ItemsView1Iterator"
+              ChangeEventPolicy="none"/>
+    <searchRegion Binds="ItemsView1Iterator" Criteria="" Customizer="oracle.jbo.uicli.binding.JUSearchBindingCustomizer"
+                  id="ItemsView1Query"/>
+  </executables>
+  <bindings>
+    <tree IterBinding="ItemsView1Iterator" id="ItemsView1">
+      <nodeDefinition DefName="stock.UPvo.ItemsView" Name="ItemsView10">
+        <AttrNames>
+          <Item Value="ItemCode"/>
+          <Item Value="ItemType"/>
+          <Item Value="ItemName"/>
+          <Item Value="ItemNameEn"/>
+          <Item Value="UnitName"/>
+          <Item Value="AlertQuan"/>
+          <Item Value="ItemBuy"/>
+          <Item Value="ItemCost"/>
+          <Item Value="TaxRat"/>
+        </AttrNames>
+      </nodeDefinition>
+    </tree>
+    <attributeValues IterBinding="ItemsView1Iterator" id="ItemCode">
+      <AttrNames>
+        <Item Value="ItemCode"/>
+      </AttrNames>
+    </attributeValues>
+    <list IterBinding="ItemsView1Iterator" StaticList="false" Uses="LOV_ItemType" id="ItemType" DTSupportsMRU="false"
+          SelectItemValueMode="ListObject"/>
+    <attributeValues IterBinding="ItemsView1Iterator" id="ItemName">
+      <AttrNames>
+        <Item Value="ItemName"/>
+      </AttrNames>
+    </attributeValues>
+    <attributeValues IterBinding="ItemsView1Iterator" id="ItemNameEn">
+      <AttrNames>
+        <Item Value="ItemNameEn"/>
+      </AttrNames>
+    </attributeValues>
+    <list IterBinding="ItemsView1Iterator" StaticList="false" Uses="LOV_UnitName" id="UnitName" DTSupportsMRU="false"
+          SelectItemValueMode="ListObject"/>
+    <attributeValues IterBinding="ItemsView1Iterator" id="ItemCost">
+      <AttrNames>
+        <Item Value="ItemCost"/>
+      </AttrNames>
+    </attributeValues>
+    <attributeValues IterBinding="ItemsView1Iterator" id="ItemBuy">
+      <AttrNames>
+        <Item Value="ItemBuy"/>
+      </AttrNames>
+    </attributeValues>
+    <attributeValues IterBinding="ItemsView1Iterator" id="AlertQuan">
+      <AttrNames>
+        <Item Value="AlertQuan"/>
+      </AttrNames>
+    </attributeValues>
+    <attributeValues IterBinding="ItemsView1Iterator" id="TaxRat">
+      <AttrNames>
+        <Item Value="TaxRat"/>
+      </AttrNames>
+    </attributeValues>
+    <attributeValues IterBinding="ItemsView1Iterator" id="Notes">
+      <AttrNames>
+        <Item Value="Notes"/>
+      </AttrNames>
+    </attributeValues>
+    <action IterBinding="ItemsView1Iterator" id="CreateInsert" RequiresUpdateModel="true" Action="createInsertRow"/>
+    <action IterBinding="ItemsView1Iterator" id="Delete" RequiresUpdateModel="false" Action="removeCurrentRow"/>
+    <action id="Commit" RequiresUpdateModel="true" Action="commitTransaction" DataControl="AppModuleDataControl"/>
+    <button IterBinding="ItemsView1Iterator" id="ActionToStock" DTSupportsMRU="false" StaticList="true">
+      <AttrNames>
+        <Item Value="ActionToStock"/>
+      </AttrNames>
+      <ValueList>
+        <Item Value="1"/>
+        <Item Value="0"/>
+      </ValueList>
+    </button>
+  </bindings>
+</pageDefinition>

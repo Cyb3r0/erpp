@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<pageDefinition xmlns="http://xmlns.oracle.com/adfm/uimodel" version="12.1.3.10.8" id="VItemTranPageDef"
+                Package="stock.pageDefs">
+  <parameters/>
+  <executables>
+    <variableIterator id="variables"/>
+    <iterator Binds="VItemTranRO1" RangeSize="25" DataControl="AppModuleDataControl" id="VItemTranRO1Iterator"/>
+    <iterator Binds="BlockSearchVItemTran1" RangeSize="25" DataControl="AppModuleDataControl"
+              id="BlockSearchVItemTran1Iterator"/>
+  </executables>
+  <bindings>
+    <tree IterBinding="VItemTranRO1Iterator" id="VItemTranRO1">
+      <nodeDefinition DefName="stock.ROvo.VItemTranRO" Name="VItemTranRO10">
+        <AttrNames>
+          <Item Value="BillCode"/>
+          <Item Value="BillDate"/>
+          <Item Value="QuanSale"/>
+          <Item Value="QuanBadSale"/>
+          <Item Value="QuanVen"/>
+          <Item Value="QuanBadVen"/>
+          <Item Value="QuanDamage"/>
+          <Item Value="QuanFrom"/>
+          <Item Value="QuanTo"/>
+          <Item Value="InItems"/>
+          <Item Value="OutItems"/>
+          <Item Value="Notes"/>
+        </AttrNames>
+      </nodeDefinition>
+    </tree>
+    <list IterBinding="BlockSearchVItemTran1Iterator" StaticList="false" Uses="LOV_ItemType" id="ItemType"
+          DTSupportsMRU="false" SelectItemValueMode="ListObject"/>
+    <list IterBinding="BlockSearchVItemTran1Iterator" StaticList="false" Uses="LOV_ItemCode" id="ItemCode"
+          DTSupportsMRU="false" SelectItemValueMode="ListObject"/>
+    <attributeValues IterBinding="BlockSearchVItemTran1Iterator" id="FromDate">
+      <AttrNames>
+        <Item Value="FromDate"/>
+      </AttrNames>
+    </attributeValues>
+    <attributeValues IterBinding="BlockSearchVItemTran1Iterator" id="ToDate">
+      <AttrNames>
+        <Item Value="ToDate"/>
+      </AttrNames>
+    </attributeValues>
+    <list IterBinding="BlockSearchVItemTran1Iterator" StaticList="false" Uses="LOV_BranchCode" id="BranchCode"
+          DTSupportsMRU="false" SelectItemValueMode="ListObject"/>
+    <button IterBinding="BlockSearchVItemTran1Iterator" id="Ck" DTSupportsMRU="false" StaticList="true">
+      <AttrNames>
+        <Item Value="Ck"/>
+      </AttrNames>
+      <ValueList>
+        <Item Value="1"/>
+        <Item Value="0"/>
+      </ValueList>
+    </button>
+  </bindings>
+</pageDefinition>

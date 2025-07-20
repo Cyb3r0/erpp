@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE html>
+<f:view xmlns:f="http://java.sun.com/jsf/core" xmlns:af="http://xmlns.oracle.com/adf/faces/rich">
+    <af:document title="StartUp.jsf" id="d1" binding="#{StartUp.d1}">
+        <af:form id="f1" binding="#{StartUp.f1}">
+            <af:panelSplitter orientation="vertical" splitterPosition="50" id="ps1" binding="#{StartUp.ps1}">
+                <f:facet name="first"/>
+                <f:facet name="second">
+                    <af:decorativeBox theme="dark" id="db2" binding="#{StartUp.db2}">
+                        <f:facet name="center">
+                            <af:decorativeBox theme="medium" id="db1" binding="#{StartUp.db1}">
+                                <f:facet name="center">
+                                    <af:panelGroupLayout id="pgl1" binding="#{StartUp.pgl1}" layout="vertical"
+                                                         halign="center">
+                                        <p xmlns="http://www.w3.org/1999/xhtml">
+                                             
+                                        </p>
+                                        <p xmlns="http://www.w3.org/1999/xhtml">
+                                             
+                                        </p>
+                                        <af:panelBox text="الدخول الى النظام" id="pb1" binding="#{StartUp.pb1}"
+                                                     inlineStyle="width:50%">
+                                            <f:facet name="toolbar"/>
+                                            <af:panelFormLayout id="pfl1" binding="#{StartUp.pfl1}"
+                                                                labelAlignment="top" inlineStyle="font-size:large;">
+                                                <f:facet name="footer">
+                                                    <af:button text="الدخول الى النظام" id="b1" binding="#{StartUp.b1}"
+                                                               action="gomainform"/>
+                                                </f:facet>
+                                                <af:inputText label="اسم المستخدم" id="it1" binding="#{StartUp.it1}"
+                                                              columns="50" rows="2"/>
+                                                <af:inputText label="كلمة المرور" id="it2" binding="#{StartUp.it2}"
+                                                              columns="50" rows="2"/>
+                                            </af:panelFormLayout>
+                                        </af:panelBox>
+                                    </af:panelGroupLayout>
+                                </f:facet>
+                            </af:decorativeBox>
+                        </f:facet>
+                    </af:decorativeBox>
+                </f:facet>
+            </af:panelSplitter>
+            <af:popup childCreation="deferred" autoCancel="disabled" id="p1" binding="#{StartUp.p1}">
+                <af:dialog id="d2" binding="#{StartUp.d2}" inlineStyle="width:50%;">
+                    <f:facet name="buttonBar"/>
+                </af:dialog>
+            </af:popup>
+        </af:form>
+    </af:document>
+    <!--oracle-jdev-comment:auto-binding-backing-bean-name:StartUp-->
+</f:view>

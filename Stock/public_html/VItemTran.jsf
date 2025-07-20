@@ -1,0 +1,255 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE html>
+<f:view xmlns:f="http://java.sun.com/jsf/core" xmlns:af="http://xmlns.oracle.com/adf/faces/rich">
+    <af:document title="VItemTran.jsf" id="d1" binding="#{backingBeanScope.VItemTran.d1}">
+        <af:messages id="m1" binding="#{backingBeanScope.VItemTran.m1}"/>
+        <af:form id="f1" binding="#{backingBeanScope.VItemTran.f1}">
+            <af:pageTemplate viewId="/Temp.jsf" id="pt1" binding="#{backingBeanScope.VItemTran.pt1}">
+                <f:facet name="center">
+                    <af:panelGroupLayout id="pgl1" binding="#{backingBeanScope.VItemTran.pgl1}" layout="vertical"
+                                         halign="center">
+                        <af:panelBox text="البحث" id="pb1" binding="#{backingBeanScope.VItemTran.pb1}"
+                                     inlineStyle="width:50%">
+                            <f:facet name="toolbar"/>
+                            <af:panelFormLayout id="pfl1" binding="#{backingBeanScope.VItemTran.pfl1}">
+                                <af:selectOneChoice value="#{bindings.ItemType.inputValue}"
+                                                    label="#{bindings.ItemType.label}"
+                                                    required="#{bindings.ItemType.hints.mandatory}"
+                                                    shortDesc="#{bindings.ItemType.hints.tooltip}" id="soc1"
+                                                    binding="#{backingBeanScope.VItemTran.soc1}" autoSubmit="true">
+                                    <f:selectItems value="#{bindings.ItemType.items}" id="si1"
+                                                   binding="#{backingBeanScope.VItemTran.si1}"/>
+                                    <f:validator binding="#{bindings.ItemType.validator}"/>
+                                </af:selectOneChoice>
+                                <af:selectOneChoice value="#{bindings.ItemCode.inputValue}"
+                                                    label="#{bindings.ItemCode.label}"
+                                                    required="#{bindings.ItemCode.hints.mandatory}"
+                                                    shortDesc="#{bindings.ItemCode.hints.tooltip}" id="soc2"
+                                                    binding="#{backingBeanScope.VItemTran.soc2}" partialTriggers="soc1">
+                                    <f:selectItems value="#{bindings.ItemCode.items}" id="si2"
+                                                   binding="#{backingBeanScope.VItemTran.si2}"/>
+                                    <f:validator binding="#{bindings.ItemCode.validator}"/>
+                                </af:selectOneChoice>
+                                <af:inputDate value="#{bindings.FromDate.inputValue}"
+                                              label="#{bindings.FromDate.hints.label}"
+                                              required="#{bindings.FromDate.hints.mandatory}"
+                                              columns="#{bindings.FromDate.hints.displayWidth}"
+                                              shortDesc="#{bindings.FromDate.hints.tooltip}" id="id2"
+                                              binding="#{backingBeanScope.VItemTran.id2}">
+                                    <f:validator binding="#{bindings.FromDate.validator}"/>
+                                    <af:convertDateTime pattern="#{bindings.FromDate.format}"/>
+                                </af:inputDate>
+                                <af:inputDate value="#{bindings.ToDate.inputValue}"
+                                              label="#{bindings.ToDate.hints.label}"
+                                              required="#{bindings.ToDate.hints.mandatory}"
+                                              columns="#{bindings.ToDate.hints.displayWidth}"
+                                              shortDesc="#{bindings.ToDate.hints.tooltip}" id="id3"
+                                              binding="#{backingBeanScope.VItemTran.id3}">
+                                    <f:validator binding="#{bindings.ToDate.validator}"/>
+                                    <af:convertDateTime pattern="#{bindings.ToDate.format}"/>
+                                </af:inputDate>
+                                <af:selectOneChoice value="#{bindings.BranchCode.inputValue}"
+                                                    label="#{bindings.BranchCode.label}"
+                                                    required="#{bindings.BranchCode.hints.mandatory}"
+                                                    shortDesc="#{bindings.BranchCode.hints.tooltip}" id="soc3"
+                                                    binding="#{backingBeanScope.VItemTran.soc3}" partialTriggers="sbc2">
+                                    <f:selectItems value="#{bindings.BranchCode.items}" id="si3"
+                                                   binding="#{backingBeanScope.VItemTran.si3}"/>
+                                    <f:validator binding="#{bindings.BranchCode.validator}"/>
+                                </af:selectOneChoice>
+                                <af:selectBooleanCheckbox value="#{bindings.Ck.inputValue}" label="#{bindings.Ck.label}"
+                                                          shortDesc="#{bindings.Ck.hints.tooltip}" id="sbc2"
+                                                          binding="#{backingBeanScope.VItemTran.sbc2}"
+                                                          valueChangeListener="#{backingBeanScope.VItemTran.sbc2_valueChangeListener}"
+                                                          autoSubmit="true"/>
+                                <af:button text="button 1" id="b2" binding="#{backingBeanScope.VItemTran.b2}"
+                                           action="#{backingBeanScope.VItemTran.Search_action}"/>
+                            </af:panelFormLayout>
+                        </af:panelBox>
+                        <af:panelBox text="نتجة الاستعلام" id="pb2" binding="#{backingBeanScope.VItemTran.pb2}"
+                                     inlineStyle="width:50%">
+                            <f:facet name="toolbar"/>
+                            <af:table value="#{bindings.VItemTranRO1.collectionModel}" var="row"
+                                      rows="#{bindings.VItemTranRO1.rangeSize}"
+                                      emptyText="#{bindings.VItemTranRO1.viewable ? 'No data to display.' : 'Access Denied.'}"
+                                      rowBandingInterval="0"
+                                      selectedRowKeys="#{bindings.VItemTranRO1.collectionModel.selectedRow}"
+                                      selectionListener="#{bindings.VItemTranRO1.collectionModel.makeCurrent}"
+                                      rowSelection="single" fetchSize="#{bindings.VItemTranRO1.rangeSize}" id="t1"
+                                      binding="#{backingBeanScope.VItemTran.t1}" columnStretching="column:c12">
+                                <af:column sortProperty="#{bindings.VItemTranRO1.hints.BillCode.name}" sortable="true"
+                                           headerText="#{bindings.VItemTranRO1.hints.BillCode.label}" id="c1"
+                                           align="center">
+                                    <af:inputText value="#{row.bindings.BillCode.inputValue}"
+                                                  label="#{bindings.VItemTranRO1.hints.BillCode.label}"
+                                                  required="#{bindings.VItemTranRO1.hints.BillCode.mandatory}"
+                                                  columns="#{bindings.VItemTranRO1.hints.BillCode.displayWidth}"
+                                                  maximumLength="#{bindings.VItemTranRO1.hints.BillCode.precision}"
+                                                  shortDesc="#{bindings.VItemTranRO1.hints.BillCode.tooltip}" id="it1">
+                                        <f:validator binding="#{row.bindings.BillCode.validator}"/>
+                                        <af:convertNumber groupingUsed="false"
+                                                          pattern="#{bindings.VItemTranRO1.hints.BillCode.format}"/>
+                                    </af:inputText>
+                                </af:column>
+                                <af:column sortProperty="#{bindings.VItemTranRO1.hints.BillDate.name}" sortable="true"
+                                           headerText="#{bindings.VItemTranRO1.hints.BillDate.label}" id="c2"
+                                           align="center">
+                                    <af:inputDate value="#{row.bindings.BillDate.inputValue}"
+                                                  label="#{bindings.VItemTranRO1.hints.BillDate.label}"
+                                                  required="#{bindings.VItemTranRO1.hints.BillDate.mandatory}"
+                                                  columns="#{bindings.VItemTranRO1.hints.BillDate.displayWidth}"
+                                                  shortDesc="#{bindings.VItemTranRO1.hints.BillDate.tooltip}" id="id1">
+                                        <f:validator binding="#{row.bindings.BillDate.validator}"/>
+                                        <af:convertDateTime pattern="#{bindings.VItemTranRO1.hints.BillDate.format}"/>
+                                    </af:inputDate>
+                                </af:column>
+                                <af:column sortProperty="#{bindings.VItemTranRO1.hints.QuanSale.name}" sortable="true"
+                                           headerText="#{bindings.VItemTranRO1.hints.QuanSale.label}" id="c3"
+                                           align="center" width="30">
+                                    <af:inputText value="#{row.bindings.QuanSale.inputValue}"
+                                                  label="#{bindings.VItemTranRO1.hints.QuanSale.label}"
+                                                  required="#{bindings.VItemTranRO1.hints.QuanSale.mandatory}"
+                                                  columns="#{bindings.VItemTranRO1.hints.QuanSale.displayWidth}"
+                                                  maximumLength="#{bindings.VItemTranRO1.hints.QuanSale.precision}"
+                                                  shortDesc="#{bindings.VItemTranRO1.hints.QuanSale.tooltip}" id="it2">
+                                        <f:validator binding="#{row.bindings.QuanSale.validator}"/>
+                                        <af:convertNumber groupingUsed="false"
+                                                          pattern="#{bindings.VItemTranRO1.hints.QuanSale.format}"/>
+                                    </af:inputText>
+                                </af:column>
+                                <af:column sortProperty="#{bindings.VItemTranRO1.hints.QuanBadSale.name}"
+                                           sortable="true" headerText="#{bindings.VItemTranRO1.hints.QuanBadSale.label}"
+                                           id="c4" align="center" width="30">
+                                    <af:inputText value="#{row.bindings.QuanBadSale.inputValue}"
+                                                  label="#{bindings.VItemTranRO1.hints.QuanBadSale.label}"
+                                                  required="#{bindings.VItemTranRO1.hints.QuanBadSale.mandatory}"
+                                                  columns="#{bindings.VItemTranRO1.hints.QuanBadSale.displayWidth}"
+                                                  maximumLength="#{bindings.VItemTranRO1.hints.QuanBadSale.precision}"
+                                                  shortDesc="#{bindings.VItemTranRO1.hints.QuanBadSale.tooltip}"
+                                                  id="it3">
+                                        <f:validator binding="#{row.bindings.QuanBadSale.validator}"/>
+                                        <af:convertNumber groupingUsed="false"
+                                                          pattern="#{bindings.VItemTranRO1.hints.QuanBadSale.format}"/>
+                                    </af:inputText>
+                                </af:column>
+                                <af:column sortProperty="#{bindings.VItemTranRO1.hints.QuanVen.name}" sortable="true"
+                                           headerText="#{bindings.VItemTranRO1.hints.QuanVen.label}" id="c5"
+                                           align="center" width="30">
+                                    <af:inputText value="#{row.bindings.QuanVen.inputValue}"
+                                                  label="#{bindings.VItemTranRO1.hints.QuanVen.label}"
+                                                  required="#{bindings.VItemTranRO1.hints.QuanVen.mandatory}"
+                                                  columns="#{bindings.VItemTranRO1.hints.QuanVen.displayWidth}"
+                                                  maximumLength="#{bindings.VItemTranRO1.hints.QuanVen.precision}"
+                                                  shortDesc="#{bindings.VItemTranRO1.hints.QuanVen.tooltip}" id="it4">
+                                        <f:validator binding="#{row.bindings.QuanVen.validator}"/>
+                                        <af:convertNumber groupingUsed="false"
+                                                          pattern="#{bindings.VItemTranRO1.hints.QuanVen.format}"/>
+                                    </af:inputText>
+                                </af:column>
+                                <af:column sortProperty="#{bindings.VItemTranRO1.hints.QuanBadVen.name}" sortable="true"
+                                           headerText="#{bindings.VItemTranRO1.hints.QuanBadVen.label}" id="c6"
+                                           align="center" width="30">
+                                    <af:inputText value="#{row.bindings.QuanBadVen.inputValue}"
+                                                  label="#{bindings.VItemTranRO1.hints.QuanBadVen.label}"
+                                                  required="#{bindings.VItemTranRO1.hints.QuanBadVen.mandatory}"
+                                                  columns="#{bindings.VItemTranRO1.hints.QuanBadVen.displayWidth}"
+                                                  maximumLength="#{bindings.VItemTranRO1.hints.QuanBadVen.precision}"
+                                                  shortDesc="#{bindings.VItemTranRO1.hints.QuanBadVen.tooltip}"
+                                                  id="it5">
+                                        <f:validator binding="#{row.bindings.QuanBadVen.validator}"/>
+                                        <af:convertNumber groupingUsed="false"
+                                                          pattern="#{bindings.VItemTranRO1.hints.QuanBadVen.format}"/>
+                                    </af:inputText>
+                                </af:column>
+                                <af:column sortProperty="#{bindings.VItemTranRO1.hints.QuanDamage.name}" sortable="true"
+                                           headerText="#{bindings.VItemTranRO1.hints.QuanDamage.label}" id="c7"
+                                           align="center" width="30">
+                                    <af:inputText value="#{row.bindings.QuanDamage.inputValue}"
+                                                  label="#{bindings.VItemTranRO1.hints.QuanDamage.label}"
+                                                  required="#{bindings.VItemTranRO1.hints.QuanDamage.mandatory}"
+                                                  columns="#{bindings.VItemTranRO1.hints.QuanDamage.displayWidth}"
+                                                  maximumLength="#{bindings.VItemTranRO1.hints.QuanDamage.precision}"
+                                                  shortDesc="#{bindings.VItemTranRO1.hints.QuanDamage.tooltip}"
+                                                  id="it6">
+                                        <f:validator binding="#{row.bindings.QuanDamage.validator}"/>
+                                        <af:convertNumber groupingUsed="false"
+                                                          pattern="#{bindings.VItemTranRO1.hints.QuanDamage.format}"/>
+                                    </af:inputText>
+                                </af:column>
+                                <af:column sortProperty="#{bindings.VItemTranRO1.hints.QuanFrom.name}" sortable="true"
+                                           headerText="#{bindings.VItemTranRO1.hints.QuanFrom.label}" id="c8"
+                                           align="center" width="30">
+                                    <af:inputText value="#{row.bindings.QuanFrom.inputValue}"
+                                                  label="#{bindings.VItemTranRO1.hints.QuanFrom.label}"
+                                                  required="#{bindings.VItemTranRO1.hints.QuanFrom.mandatory}"
+                                                  columns="#{bindings.VItemTranRO1.hints.QuanFrom.displayWidth}"
+                                                  maximumLength="#{bindings.VItemTranRO1.hints.QuanFrom.precision}"
+                                                  shortDesc="#{bindings.VItemTranRO1.hints.QuanFrom.tooltip}" id="it7">
+                                        <f:validator binding="#{row.bindings.QuanFrom.validator}"/>
+                                        <af:convertNumber groupingUsed="false"
+                                                          pattern="#{bindings.VItemTranRO1.hints.QuanFrom.format}"/>
+                                    </af:inputText>
+                                </af:column>
+                                <af:column sortProperty="#{bindings.VItemTranRO1.hints.QuanTo.name}" sortable="true"
+                                           headerText="#{bindings.VItemTranRO1.hints.QuanTo.label}" id="c9"
+                                           align="center" width="30">
+                                    <af:inputText value="#{row.bindings.QuanTo.inputValue}"
+                                                  label="#{bindings.VItemTranRO1.hints.QuanTo.label}"
+                                                  required="#{bindings.VItemTranRO1.hints.QuanTo.mandatory}"
+                                                  columns="#{bindings.VItemTranRO1.hints.QuanTo.displayWidth}"
+                                                  maximumLength="#{bindings.VItemTranRO1.hints.QuanTo.precision}"
+                                                  shortDesc="#{bindings.VItemTranRO1.hints.QuanTo.tooltip}" id="it8">
+                                        <f:validator binding="#{row.bindings.QuanTo.validator}"/>
+                                        <af:convertNumber groupingUsed="false"
+                                                          pattern="#{bindings.VItemTranRO1.hints.QuanTo.format}"/>
+                                    </af:inputText>
+                                </af:column>
+                                <af:column sortProperty="#{bindings.VItemTranRO1.hints.InItems.name}" sortable="true"
+                                           headerText="#{bindings.VItemTranRO1.hints.InItems.label}" id="c10"
+                                           align="center" width="30">
+                                    <af:inputText value="#{row.bindings.InItems.inputValue}"
+                                                  label="#{bindings.VItemTranRO1.hints.InItems.label}"
+                                                  required="#{bindings.VItemTranRO1.hints.InItems.mandatory}"
+                                                  columns="#{bindings.VItemTranRO1.hints.InItems.displayWidth}"
+                                                  maximumLength="#{bindings.VItemTranRO1.hints.InItems.precision}"
+                                                  shortDesc="#{bindings.VItemTranRO1.hints.InItems.tooltip}" id="it9">
+                                        <f:validator binding="#{row.bindings.InItems.validator}"/>
+                                        <af:convertNumber groupingUsed="false"
+                                                          pattern="#{bindings.VItemTranRO1.hints.InItems.format}"/>
+                                    </af:inputText>
+                                </af:column>
+                                <af:column sortProperty="#{bindings.VItemTranRO1.hints.OutItems.name}" sortable="true"
+                                           headerText="#{bindings.VItemTranRO1.hints.OutItems.label}" id="c11"
+                                           align="center" width="30">
+                                    <af:inputText value="#{row.bindings.OutItems.inputValue}"
+                                                  label="#{bindings.VItemTranRO1.hints.OutItems.label}"
+                                                  required="#{bindings.VItemTranRO1.hints.OutItems.mandatory}"
+                                                  columns="#{bindings.VItemTranRO1.hints.OutItems.displayWidth}"
+                                                  maximumLength="#{bindings.VItemTranRO1.hints.OutItems.precision}"
+                                                  shortDesc="#{bindings.VItemTranRO1.hints.OutItems.tooltip}" id="it10">
+                                        <f:validator binding="#{row.bindings.OutItems.validator}"/>
+                                        <af:convertNumber groupingUsed="false"
+                                                          pattern="#{bindings.VItemTranRO1.hints.OutItems.format}"/>
+                                    </af:inputText>
+                                </af:column>
+                                <af:column sortProperty="#{bindings.VItemTranRO1.hints.Notes.name}" sortable="true"
+                                           headerText="#{bindings.VItemTranRO1.hints.Notes.label}" id="c12"
+                                           align="center">
+                                    <af:inputText value="#{row.bindings.Notes.inputValue}"
+                                                  label="#{bindings.VItemTranRO1.hints.Notes.label}"
+                                                  required="#{bindings.VItemTranRO1.hints.Notes.mandatory}"
+                                                  columns="#{bindings.VItemTranRO1.hints.Notes.displayWidth}"
+                                                  maximumLength="#{bindings.VItemTranRO1.hints.Notes.precision}"
+                                                  shortDesc="#{bindings.VItemTranRO1.hints.Notes.tooltip}" id="it11">
+                                        <f:validator binding="#{row.bindings.Notes.validator}"/>
+                                    </af:inputText>
+                                </af:column>
+                            </af:table>
+                        </af:panelBox>
+                    </af:panelGroupLayout>
+                </f:facet>
+            </af:pageTemplate>
+        </af:form>
+    </af:document>
+    <!--oracle-jdev-comment:auto-binding-backing-bean-name:VItemTran-->
+</f:view>

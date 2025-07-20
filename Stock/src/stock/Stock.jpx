@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="windows-1256" ?>
+<!DOCTYPE JboProject SYSTEM "jbo_03_01.dtd">
+<!---->
+<JboProject
+  xmlns="http://xmlns.oracle.com/bc4j"
+  Name="Stock"
+  Version="12.1.3.10.8"
+  SeparateXMLFiles="true"
+  PackageName="stock">
+  <DesignTime>
+    <Attr Name="_jprName" Value="../../Stock.jpr"/>
+    <Attr Name="_jbo.TypeMapEntries" Value="OracleApps"/>
+    <Attr Name="_NamedConnection" Value="Stock_a"/>
+    <Attr Name="_appModuleNames0" Value="stock.ApplicationModule.AppModule"/>
+  </DesignTime>
+  <Containee
+    Name="ApplicationModule"
+    PackageName="stock.ApplicationModule"
+    ObjectType="JboPackage">
+    <DesignTime>
+      <Attr Name="_AM" Value="true"/>
+    </DesignTime>
+  </Containee>
+  <Containee
+    Name="EO"
+    PackageName="stock.EO"
+    ObjectType="JboPackage">
+    <DesignTime>
+      <Attr Name="_EO" Value="true"/>
+    </DesignTime>
+  </Containee>
+  <Containee
+    Name="ROvo"
+    PackageName="stock.ROvo"
+    ObjectType="JboPackage">
+    <DesignTime>
+      <Attr Name="_VO" Value="true"/>
+    </DesignTime>
+  </Containee>
+  <Containee
+    Name="UPvo"
+    PackageName="stock.UPvo"
+    ObjectType="JboPackage">
+    <DesignTime>
+      <Attr Name="_VO" Value="true"/>
+    </DesignTime>
+  </Containee>
+</JboProject>
